@@ -1,0 +1,29 @@
+@media screen and (max-width: 800px) {
+    body,html {
+        background:white;
+        padding:0px;
+        margin:0px;
+    }
+    header,main,footer{
+        width:100%;
+        padding:0px;
+    }
+    #pancarta{
+        display:none;
+    }
+    form,iframe{
+        width:100% !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #destacados article{
+        width:49%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #destacados article{
+        width:100%;
+    }
+}

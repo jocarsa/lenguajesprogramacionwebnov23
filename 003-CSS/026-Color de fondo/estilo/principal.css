@@ -1,0 +1,17 @@
+/* Estilos generales */
+
+h1{
+    color:DarkSlateGray;
+}
+h2{
+    color:#3b3b3b;
+}
+h3{
+    color:rgb(50,50,50);
+}
+body{
+    background:grey;
+}
+header,main,footer{
+    background:white;
+}

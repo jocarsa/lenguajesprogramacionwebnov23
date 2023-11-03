@@ -1,0 +1,15 @@
+#sobremi{
+    vertical-align: middle;
+}
+#sobremi img{
+    width:50%;
+    display:inline-block;
+    vertical-align: middle;
+}
+#sobremi .texto{
+    width:49%;
+    height:300px;
+    display:inline-block;
+    vertical-align: middle;
+    
+}

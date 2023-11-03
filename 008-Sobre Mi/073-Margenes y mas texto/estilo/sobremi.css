@@ -1,0 +1,28 @@
+#sobremi{
+    vertical-align: middle;
+}
+#sobremi img{
+    width:40%;
+    display:inline-block;
+    vertical-align: middle;
+}
+#sobremi .texto{
+    width:59%;
+    height:300px;
+    display:inline-block;
+    vertical-align: middle;
+    padding-left:20px;
+    box-sizing: border-box;
+    text-align:justify;
+}
+.bloque:nth-child(odd) img{
+    float:right;
+}
+.bloque:nth-child(odd) .texto{
+    float:left;
+    padding-left:0px !important;
+    box-sizing: border-box;
+}
+.clearfix{
+    clear:both;
+}

@@ -1,0 +1,12 @@
+form{
+    display:inline-block;
+    width:50%;
+}
+form input,form textarea{
+    width:98%;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+fieldset{
+    border:1px solid rgb(220,220,220);
+}

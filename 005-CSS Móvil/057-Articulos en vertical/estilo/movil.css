@@ -1,0 +1,17 @@
+@media screen and (max-width: 800px) {
+    body,html {
+        background:white;
+        padding:0px;
+        margin:0px;
+    }
+    header,main,footer{
+        width:100%;
+        padding:0px;
+    }
+    #pancarta{
+        display:none;
+    }
+    #destacados article{
+        width:100%;
+    }
+}
