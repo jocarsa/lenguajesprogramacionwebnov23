@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="001-Esquema tecnologias.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4912879"
+     inkscape:cx="390.2667"
+     inkscape:cy="506.27381"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#800000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       id="rect788"
+       width="53.048389"
+       height="17.032257"
+       x="74.161293"
+       y="94.571907"
+       ry="4.4560237" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#ffffff;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       x="77.154472"
+       y="99.359901"
+       id="text898"><tspan
+         sodipodi:role="line"
+         id="tspan896"
+         style="fill:#ffffff;stroke-width:0.565"
+         x="77.154472"
+         y="99.359901">html</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#ffffff;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       x="124.93764"
+       y="109.56152"
+       id="text956"><tspan
+         sodipodi:role="line"
+         id="tspan954"
+         style="text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.565"
+         x="124.93764"
+         y="109.56152">estructura</tspan></text>
+    <rect
+       style="fill:#808000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1786"
+       width="53.048389"
+       height="17.032257"
+       x="74.161293"
+       y="76.65255"
+       ry="4.4560237" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#ffffff;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       x="77.154472"
+       y="81.440544"
+       id="text1790"><tspan
+         sodipodi:role="line"
+         id="tspan1788"
+         style="fill:#ffffff;stroke-width:0.565"
+         x="77.154472"
+         y="81.440544">css</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#ffffff;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       x="124.93764"
+       y="91.642159"
+       id="text1794"><tspan
+         sodipodi:role="line"
+         id="tspan1792"
+         style="text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.565"
+         x="124.93764"
+         y="91.642159">estética</tspan></text>
+    <rect
+       style="fill:#000080;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1898"
+       width="53.048389"
+       height="17.032257"
+       x="74.161293"
+       y="112.93481"
+       ry="4.4560237" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#ffffff;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       x="77.154472"
+       y="117.7228"
+       id="text1902"><tspan
+         sodipodi:role="line"
+         id="tspan1900"
+         style="fill:#ffffff;stroke-width:0.565"
+         x="77.154472"
+         y="117.7228">javascript</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#ffffff;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       x="124.93764"
+       y="127.92442"
+       id="text1906"><tspan
+         sodipodi:role="line"
+         id="tspan1904"
+         style="text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.565"
+         x="124.93764"
+         y="127.92442">comportamiento</tspan></text>
+    <rect
+       style="fill:#2b0000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1960"
+       width="21.290323"
+       height="7.0080643"
+       x="90.217735"
+       y="132.53072"
+       ry="3.5040321" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#ffffff;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       x="97.025444"
+       y="137.1413"
+       id="text1964"><tspan
+         sodipodi:role="line"
+         id="tspan1962"
+         style="fill:#ffffff;stroke-width:0.565"
+         x="97.025444"
+         y="137.1413">JSON</tspan></text>
+    <path
+       style="fill:#2b0000;stroke-width:0.565;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.565,1.12999999;stroke:#000000;stroke-opacity:1;stroke-dashoffset:0"
+       d="M 17.919354,136.08064 H 185.04839"
+       id="path2122" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;text-align:end;text-anchor:end;fill:#2b0000;stroke:#000000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.564999, 1.13;stroke-dashoffset:0;stroke-opacity:1"
+       x="40.019962"
+       y="134.36169"
+       id="text2904"><tspan
+         sodipodi:role="line"
+         id="tspan2902"
+         style="stroke:none;stroke-width:0.565"
+         x="40.019962"
+         y="134.36169">lado del cliente</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;text-align:end;text-anchor:end;fill:#2b0000;stroke:#000000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.564999, 1.13;stroke-dashoffset:0;stroke-opacity:1"
+       x="42.403595"
+       y="140.1326"
+       id="text2958"><tspan
+         sodipodi:role="line"
+         id="tspan2956"
+         style="stroke:none;stroke-width:0.565"
+         x="42.403595"
+         y="140.1326">lado del servidor</tspan></text>
+    <rect
+       style="fill:#2b0000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2960"
+       width="21.290323"
+       height="7.0080643"
+       x="90.217735"
+       y="132.53072"
+       ry="3.5040321" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#ffffff;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       x="97.025444"
+       y="137.1413"
+       id="text2964"><tspan
+         sodipodi:role="line"
+         id="tspan2962"
+         style="fill:#ffffff;stroke-width:0.565"
+         x="97.025444"
+         y="137.1413">JSON</tspan></text>
+    <rect
+       style="fill:#800080;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2966"
+       width="53.048389"
+       height="17.032257"
+       x="74.161293"
+       y="141.28751"
+       ry="4.4560237" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#ffffff;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       x="77.154472"
+       y="146.0755"
+       id="text2970"><tspan
+         sodipodi:role="line"
+         id="tspan2968"
+         style="fill:#ffffff;stroke-width:0.565"
+         x="77.154472"
+         y="146.0755">PHP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#ffffff;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       x="124.93764"
+       y="156.27713"
+       id="text2974"><tspan
+         sodipodi:role="line"
+         id="tspan2972"
+         style="text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.565"
+         x="124.93764"
+         y="156.27713">comportamiento servidor</tspan></text>
+    <ellipse
+       style="fill:#800000;stroke:#ffffff;stroke-width:0.565;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3028"
+       cx="101.49263"
+       cy="174.56984"
+       rx="8.9072647"
+       ry="3.3245425" />
+    <ellipse
+       style="fill:#800000;stroke:#ffffff;stroke-width:0.565;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse3186"
+       cx="101.49263"
+       cy="171.68439"
+       rx="8.9072647"
+       ry="3.3245425" />
+    <ellipse
+       style="fill:#800000;stroke:#ffffff;stroke-width:0.565;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse3188"
+       cx="101.49263"
+       cy="168.92439"
+       rx="8.9072647"
+       ry="3.3245425" />
+    <ellipse
+       style="fill:#800000;stroke:#ffffff;stroke-width:0.565;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse3190"
+       cx="101.49263"
+       cy="166.03894"
+       rx="8.9072647"
+       ry="3.3245425" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.564999;stroke-linecap:round;stroke-linejoin:round"
+       x="112.90898"
+       y="171.54276"
+       id="text3194"><tspan
+         sodipodi:role="line"
+         id="tspan3192"
+         style="fill:#000000;stroke-width:0.565"
+         x="112.90898"
+         y="171.54276">MySQL</tspan></text>
+  </g>
+</svg>
