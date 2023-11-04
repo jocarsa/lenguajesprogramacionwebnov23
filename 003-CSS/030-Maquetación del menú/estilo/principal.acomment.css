@@ -1,0 +1,7 @@
+En el nuevo fragmento de código CSS:
+
+1. `nav ul li`: Se ha añadido una nueva regla de estilo que afecta a los elementos anidados dentro de las etiquetas `<nav>`. Específicamente, esta regla establece que los elementos `<li>` dentro de una lista desordenada `<ul>` dentro de un elemento `<nav>` se deben mostrar como elementos en línea (`display: inline-block`). Esto significa que los elementos de la lista de navegación se mostrarán uno al lado del otro en la misma línea horizontal, en lugar de como una lista vertical.
+
+Este estilo afectará la maquetación del menú de navegación y hará que los elementos del menú se muestren en línea uno al lado del otro.
+
+En resumen, en comparación con el código CSS anterior, se ha añadido una regla de estilo para el menú de navegación que cambia la visualización de los elementos de la lista de navegación para que se muestren en línea.

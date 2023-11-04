@@ -1,0 +1,5 @@
+En el nuevo fragmento de código CSS:
+
+1. `header, main, footer`: Se ha añadido una regla de estilo que establece la propiedad `margin` como "auto" para los selectores `header`, `main`, y `footer`. Esto es comúnmente utilizado para centrar elementos en un diseño web. Al establecer `margin` en "auto," se logra que las secciones `<header>`, `<main>`, y `<footer>` se centren horizontalmente en la página, ya que el margen izquierdo y derecho se ajusta automáticamente para lograr la alineación central.
+
+En resumen, en comparación con el código CSS anterior, se ha añadido un estilo que centra horizontalmente las secciones `<header>`, `<main>`, y `<footer>`, lo que mejora la presentación del diseño de la página web.

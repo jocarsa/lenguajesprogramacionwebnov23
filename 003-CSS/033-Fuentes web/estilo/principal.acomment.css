@@ -1,0 +1,5 @@
+En el nuevo fragmento de código CSS:
+
+1. `@font-face`: Se ha agregado una regla `@font-face` que define una fuente personalizada llamada "miFuenteNegrita" y especifica la ubicación del archivo de fuente ("miFuenteNegrita.otf"). Luego, en la regla de estilo para `h1`, se establece `font-family` en "miFuenteNegrita" para cambiar el tipo de fuente utilizado en los encabezados `<h1>`.
+
+En resumen, en comparación con el código CSS anterior, se ha definido y aplicado una fuente personalizada "miFuenteNegrita" para los encabezados `<h1>`, lo que cambia el tipo de fuente de estos elementos. Los otros estilos permanecen sin cambios.

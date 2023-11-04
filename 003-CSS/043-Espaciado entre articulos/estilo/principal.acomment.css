@@ -1,0 +1,10 @@
+En el último fragmento de código CSS, se han realizado las siguientes modificaciones:
+
+1. `#destacados article`: Se han agregado las siguientes reglas de estilo para los elementos `article` dentro de la sección "destacados":
+   - `box-sizing: border-box;`: Se ha establecido `box-sizing` en "border-box" para que el ancho y alto, incluyendo el relleno y el borde, se calculen en relación con el tamaño total del elemento.
+   - `padding: 5px;`: Se ha agregado un espacio de relleno de 5 píxeles alrededor de cada elemento `article`, lo que proporciona un espaciado entre los elementos.
+   
+2. `#destacados article img`: Se ha agregado una regla de estilo para las imágenes dentro de los elementos `article` en la sección "destacados":
+   - `width: 100%;`: Esto asegura que la imagen se ajuste al ancho del elemento `article` al 100% de su tamaño, lo que significa que ocupará todo el ancho del contenedor.
+
+Estas modificaciones afectan la maquetación de los elementos "destacados", añadiendo un espaciado alrededor de cada elemento y haciendo que las imágenes se ajusten al ancho de sus contenedores.

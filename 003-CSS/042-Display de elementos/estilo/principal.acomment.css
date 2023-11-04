@@ -1,0 +1,7 @@
+En el último fragmento de código CSS, se han realizado las siguientes modificaciones:
+
+1. `#destacados article`: Se ha agregado una nueva regla de estilo para los elementos `article` dentro de la sección "destacados":
+   - `display: inline-block;`: Esto cambia la visualización de los elementos `article` para que se muestren en línea uno al lado del otro, lo que les permite ocupar el espacio disponible horizontalmente.
+   - `width: 24%;`: Se establece un ancho del 24% para cada elemento `article` dentro de la sección "destacados". Esto permite que haya cuatro elementos en una fila, ya que el total del ancho (24% x 4) sumaría el 96% del ancho disponible.
+
+Estas modificaciones afectan la maquetación de los elementos "destacados", permitiendo que se muestren en una cuadrícula de cuatro elementos por fila. Cada elemento `article` se muestra en línea y ocupa un cuarto del ancho disponible.

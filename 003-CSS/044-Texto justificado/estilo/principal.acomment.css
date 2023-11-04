@@ -1,0 +1,7 @@
+En el último fragmento de código CSS, se han realizado las siguientes modificaciones:
+
+1. `#destacados p`: Se ha agregado una regla de estilo para los párrafos dentro de los elementos `article` en la sección "destacados":
+   - `text-align: justify;`: Esto justifica el texto en los párrafos, lo que significa que el texto se distribuirá uniformemente en el ancho del elemento.
+   - `font-size: 12px;`: Se ha establecido un tamaño de fuente de 12 píxeles para los párrafos, lo que reduce el tamaño del texto en comparación con otros elementos.
+
+Estas modificaciones afectan la maquetación de los elementos "destacados", justificando el texto en los párrafos y reduciendo el tamaño de fuente de los mismos.

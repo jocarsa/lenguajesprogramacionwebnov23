@@ -1,0 +1,18 @@
+HTML, siglas de "HyperText Markup Language" (Lenguaje de Marcado de Hipertexto), es un lenguaje de marcado utilizado para crear páginas web. Su historia se remonta a la década de 1980 y ha evolucionado significativamente desde entonces. Aquí hay una breve explicación de su historia:
+
+1. Precursor: Antes de la creación de HTML, la idea de un hipertexto, que permitiera enlazar información de manera no lineal, había sido explorada por varios investigadores. El concepto de hipertexto se remonta a las décadas de 1940 y 1950, pero no se materializó en un lenguaje de marcado de uso común hasta mucho después.
+
+2. Orígenes de HTML: En 1989, Tim Berners-Lee, un científico de la computación británico que trabajaba en el CERN (Organización Europea para la Investigación Nuclear), propuso un sistema para compartir información científica en línea. Junto con su colega belga Robert Cailliau, desarrolló el primer lenguaje de marcado llamado "HTML", junto con el protocolo HTTP (HyperText Transfer Protocol) y el primer servidor web.
+
+3. World Wide Web (WWW): En 1991, el primer sitio web público fue creado por Tim Berners-Lee, marcando el nacimiento de la World Wide Web. La primera página web consistía en texto e hipervínculos simples y utilizaba HTML.
+
+4. Evolución de HTML: HTML ha pasado por varias versiones a lo largo de los años. Algunas de las versiones clave incluyen:
+   - HTML 2.0 (1995): Introdujo elementos para tablas y formularios.
+   - HTML 3.2 (1997): Agregó soporte para hojas de estilo (CSS) y applets de Java.
+   - HTML 4.01 (1999): Refinó la especificación y se mantuvo durante varios años.
+   - XHTML (2000): Una versión más estricta y compatible con XML de HTML.
+   - HTML5 (2014): La versión más reciente y ampliamente utilizada, que introdujo numerosos elementos y atributos, soporte para video y audio, elementos semánticos, entre otros avances.
+
+5. Estándares y Organizaciones: El desarrollo y la estandarización de HTML se llevaron a cabo principalmente a través del World Wide Web Consortium (W3C), una organización que trabaja en la creación y mantenimiento de estándares web abiertos. HTML5 fue el último estándar importante, y desde entonces, el W3C se ha centrado en mantener y mejorar HTML.
+
+HTML se ha convertido en la base de la mayoría de las páginas web que vemos en Internet hoy en día. A medida que la web ha evolucionado, HTML se ha adaptado y ampliado para admitir nuevas tecnologías y necesidades, lo que lo convierte en una parte fundamental de la experiencia en línea.

@@ -1,0 +1,9 @@
+El archivo "robots.txt" es un archivo utilizado por los motores de búsqueda para comprender qué partes de un sitio web deben rastrear (indexar) y qué partes deben ignorar. Aquí tienes una explicación del contenido de este archivo:
+
+1. `User-agent: *`: Esta línea indica que las siguientes reglas se aplican a todos los motores de búsqueda (cualquier "agente de usuario").
+
+2. `Disallow: /paneldecontrol/`: Esta línea especifica que se debe evitar el rastreo (indexación) de cualquier página o recurso que se encuentre en la ruta "/paneldecontrol/". En otras palabras, le dice a los motores de búsqueda que no deben acceder ni mostrar en los resultados de búsqueda ninguna página que esté dentro de la carpeta llamada "paneldecontrol". Esto puede ser útil para evitar que los motores de búsqueda muestren información confidencial o páginas de administración interna.
+
+3. `Sitemap: https://jocarsa.com/sitemap.xml`: Esta línea proporciona a los motores de búsqueda la ubicación del archivo XML de sitemap de tu sitio web. Un archivo de sitemap ayuda a los motores de búsqueda a indexar eficientemente todas las páginas y recursos de tu sitio web. Al proporcionar la URL del sitemap, estás indicando a los motores de búsqueda dónde pueden encontrar una lista completa de todas las páginas que deseas que indexen.
+
+En resumen, este archivo "robots.txt" está configurado para evitar que los motores de búsqueda rastreen el contenido que se encuentra en la carpeta "/paneldecontrol/" y proporciona la ubicación del sitemap XML para ayudar a los motores de búsqueda a indexar las páginas deseadas de tu sitio web de manera eficiente.

@@ -1,0 +1,5 @@
+En el nuevo fragmento de código CSS:
+
+1. `header, main, footer`: Se han agregado reglas de estilo para los selectores `header`, `main`, y `footer` que establecen la propiedad `padding` como "30px." Esto significa que se añadirá un relleno de 30 píxeles alrededor del contenido dentro de las secciones `<header>`, `<main>`, y `<footer>. El relleno proporcionará espacio adicional entre el contenido y los bordes de estas secciones.
+
+En resumen, en comparación con el código CSS anterior, se ha añadido relleno a las secciones `<header>`, `<main>`, y `<footer>`, lo que proporcionará espacio adicional alrededor del contenido dentro de estas áreas de la página. El relleno puede ayudar a mejorar el aspecto y la disposición del contenido en estas secciones.

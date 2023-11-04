@@ -1,0 +1,5 @@
+En el nuevo fragmento de código CSS:
+
+1. `h1`, `h2`, `h3`: Se ha añadido la propiedad `text-align` con el valor `center` a las reglas de estilo para los elementos `<h1>`, `<h2>`, y `<h3>`. Esto centrará el texto dentro de estos elementos en su contenedor.
+
+En resumen, en comparación con el código CSS anterior, se ha añadido la propiedad `text-align: center;` a los elementos `<h1>`, `<h2>`, y `<h3>`, lo que centrará el texto en estos elementos. Los otros estilos permanecen sin cambios.

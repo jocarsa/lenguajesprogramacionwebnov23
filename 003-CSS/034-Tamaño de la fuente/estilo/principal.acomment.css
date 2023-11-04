@@ -1,0 +1,5 @@
+En el nuevo fragmento de código CSS:
+
+1. `h1`, `h2`: Se han añadido reglas de estilo para los elementos `<h1>` y `<h2>`. Se ha especificado el tamaño de fuente (`font-size`) para cada uno de ellos. Para `<h1>`, el tamaño de fuente se ha establecido en 36px, y para `<h2>`, se ha establecido en 16px. Esto cambiará el tamaño de fuente de estos encabezados en la página.
+
+En resumen, en comparación con el código CSS anterior, se han añadido reglas de estilo para los elementos `<h1>` y `<h2>` que definen tamaños de fuente específicos para estos encabezados. Los otros estilos permanecen sin cambios.

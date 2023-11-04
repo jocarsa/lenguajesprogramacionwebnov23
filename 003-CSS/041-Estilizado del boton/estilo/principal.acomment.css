@@ -1,0 +1,10 @@
+En el último fragmento de código CSS, se han realizado las siguientes modificaciones:
+
+1. `#pancarta button`: Se ha agregado una nueva regla de estilo para los elementos `button` dentro de la sección "pancarta":
+   - `background: green;`: Se ha establecido un fondo verde para el botón.
+   - `color: white;`: El color del texto en el botón se ha establecido en blanco para que sea visible sobre el fondo verde.
+   - `border: none;`: Se ha eliminado el borde del botón.
+   - `padding: 10px;`: Se ha agregado un relleno de 10 píxeles alrededor del botón.
+   - `border-radius: 20px;`: Se ha aplicado un radio de borde de 20 píxeles para darle al botón una forma redondeada.
+
+Estas modificaciones han añadido un botón con un estilo visual distintivo en la sección de la pancarta. El botón tiene un fondo verde y texto blanco, con esquinas redondeadas para un aspecto más agradable.

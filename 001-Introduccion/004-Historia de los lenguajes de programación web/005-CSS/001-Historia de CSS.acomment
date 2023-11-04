@@ -1,0 +1,19 @@
+La historia de CSS (Cascading Style Sheets) es una parte fundamental en el desarrollo de la web y se ha desarrollado junto con la evolución de las tecnologías web a lo largo de los años. A continuación, se presenta un resumen de la historia de CSS:
+
+1. Década de 1990: Antes de la introducción de CSS, la presentación de las páginas web se manejaba principalmente a través de atributos HTML. Esto significaba que el diseño y el contenido estaban fuertemente acoplados, lo que hacía que el mantenimiento y la personalización de sitios web fueran complicados. En este contexto, surgieron las primeras ideas para separar la estructura del contenido (HTML) de su presentación (CSS).
+
+2. 1994: Håkon Wium Lie y Bert Bos propusieron la idea de las "Hojas de Estilo en Cascada" en una publicación. Su concepto se basó en la idea de separar la presentación del contenido, lo que permitiría una mayor flexibilidad y mantenimiento en el diseño web.
+
+3. 1996: El World Wide Web Consortium (W3C) comenzó a trabajar en la especificación de CSS, y CSS nivel 1 se convirtió en un estándar en ese mismo año. CSS1 permitía la definición de propiedades de estilo básicas, como colores, fuentes y márgenes.
+
+4. 1997: Se publicó CSS nivel 2 (CSS2), que introdujo muchas más propiedades de estilo y características avanzadas, como la posibilidad de aplicar estilos a elementos específicos en lugar de solo a tipos de elementos (clases y IDs).
+
+5. Años 2000: A pesar de la introducción de CSS2, la adopción de CSS en la web fue lenta debido a problemas de compatibilidad entre navegadores. Los diseñadores web se enfrentaron a desafíos considerables para lograr una apariencia coherente en diferentes navegadores. La Guerra de Navegadores (Browser Wars) entre Internet Explorer y Netscape complicó aún más el panorama.
+
+6. 2001: CSS nivel 2 revisado (CSS2.1) se convirtió en un borrador y posteriormente en un estándar, lo que ayudó a estandarizar la implementación de CSS en los navegadores.
+
+7. Años 2010: CSS3 comenzó a emerger con nuevas características y módulos, como transiciones, animaciones, sombras, bordes redondeados y flexbox. Estos módulos permitieron a los diseñadores web crear sitios web más interactivos y atractivos visualmente.
+
+8. Actualidad: CSS3 ha evolucionado continuamente con la adición de módulos y características más avanzadas, como CSS Grid Layout y Variables CSS (variables personalizadas), que brindan un mayor control y flexibilidad en el diseño web. Además, se ha avanzado en el desarrollo de CSS en cuanto a rendimiento y eficiencia.
+
+CSS ha desempeñado un papel fundamental en la creación de la web moderna, permitiendo la separación de la estructura del contenido y la presentación, lo que facilita la creación de sitios web visualmente atractivos y más fáciles de mantener. La evolución de CSS ha sido una parte esencial en el avance de las tecnologías web y la mejora de la experiencia del usuario en Internet.

@@ -1,0 +1,5 @@
+En el nuevo fragmento de código CSS:
+
+1. `header, main, footer`: Se han añadido reglas de estilo que establecen la propiedad `width` como "800px" para los selectores `header`, `main`, y `footer`. Esto establece un ancho fijo de 800 píxeles para estas secciones. Esto significa que las secciones `<header>`, `<main>`, y `<footer>` tendrán un ancho fijo de 800 píxeles en la página.
+
+Esto agrega un nuevo estilo al código anterior, limitando el ancho de estas secciones a 800 píxeles, lo que puede influir en la disposición y el diseño de la página.

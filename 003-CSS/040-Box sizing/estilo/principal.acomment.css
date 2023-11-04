@@ -1,0 +1,17 @@
+En el último fragmento de código CSS, se han realizado las siguientes modificaciones:
+
+1. `#pancarta`: Se han añadido nuevas reglas de estilo a la sección con el ID "pancarta":
+   - `padding: 40px;`: Se ha agregado un relleno interno de 40 píxeles alrededor del contenido de la sección.
+   - `box-sizing: border-box;`: Se ha establecido el modelo de caja "border-box" para que el relleno interno se incluya en el ancho total de la sección.
+   - `text-align: left;`: Se ha alineado el texto a la izquierda dentro de la sección.
+   - `color: white;`: Se ha establecido el color del texto en blanco para que sea visible sobre el fondo de la imagen de la pancarta.
+
+2. `#pancarta h3`: Se han agregado reglas de estilo específicas para los elementos `h3` dentro de la sección "pancarta":
+   - `text-align: left;`: Se ha forzado la alineación del texto a la izquierda.
+   - `color: white;`: Se ha establecido el color del texto en blanco.
+   - `font-size: 32px;`: Se ha definido un tamaño de fuente más grande de 32 píxeles.
+
+3. `#pancarta p`: Se han agregado reglas de estilo para los elementos `p` dentro de la sección "pancarta":
+   - `width: 50%;`: Se ha limitado el ancho del párrafo al 50% del ancho de la sección. Esto hará que el texto ocupe solo la mitad del ancho de la sección.
+
+Estas modificaciones aplican estilos adicionales a la sección de la pancarta, incluyendo un mayor espacio interno, alineación del texto y colores para hacer que el contenido sea más visible sobre el fondo de la imagen.

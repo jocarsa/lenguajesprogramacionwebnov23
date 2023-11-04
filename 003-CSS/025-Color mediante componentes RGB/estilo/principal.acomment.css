@@ -1,0 +1,10 @@
+En el nuevo fragmento de código CSS:
+
+1. `h2` y `h3`: Se han definido reglas de estilo para los selectores `h2` y `h3`. Estas reglas de estilo establecen el color del texto para los elementos `<h2>` y `<h3`. 
+
+   - `h2` tiene la propiedad `color` establecida en "#3b3b3b," que es un valor de color en formato hexadecimal.
+   - `h3` tiene la propiedad `color` establecida en "rgb(50, 50, 50)," que es un valor de color en formato RGB.
+
+Estos estilos afectarán el color del texto en las etiquetas `<h2>` y `<h3`.
+
+En resumen, en comparación con el código CSS anterior, se han agregado reglas de estilo para los elementos `<h2>` y `<h3>`, lo que permite personalizar el color del texto en estos encabezados de nivel 2 y 3.

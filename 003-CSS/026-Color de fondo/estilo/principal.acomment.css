@@ -1,0 +1,7 @@
+En el nuevo fragmento de código CSS:
+
+1. `body`: Se ha definido una regla de estilo para el selector `body`. Esta regla de estilo establece la propiedad `background` como "grey" (gris) para el fondo de toda la página. Esto cambiará el color de fondo de toda la página a gris.
+
+2. `header, main, footer`: Se han definido reglas de estilo para los selectores `header`, `main`, y `footer`. Estas reglas de estilo establecen la propiedad `background` como "white" (blanco) para el fondo de las secciones `<header>`, `<main>`, y `<footer>`. Esto cambiará el color de fondo de estas secciones a blanco.
+
+En resumen, en comparación con el código CSS anterior, se han agregado reglas de estilo para el fondo de la página (`body`) y para el fondo de las secciones `<header>`, `<main>`, y `<footer>`, lo que personaliza el color de fondo de estas áreas de la página.
