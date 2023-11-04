@@ -1,0 +1,47 @@
+Los hipervínculos en HTML son enlaces que permiten a los usuarios navegar de una página web a otra o acceder a diferentes recursos en línea, como otros sitios web, documentos, imágenes, videos o incluso secciones dentro de la misma página. Los hipervínculos se crean utilizando la etiqueta `<a>` (abreviatura de "anchor" en inglés), y se definen mediante el atributo "href" (hipertext reference) que especifica la URL de destino. A continuación, te explico cómo funcionan los hipervínculos en HTML:
+
+1. Creación de un hipervínculo:
+   - Para crear un hipervínculo en HTML, utilizas la etiqueta `<a>` y el atributo "href". Aquí tienes un ejemplo básico:
+
+   ```html
+   <a href="https://www.ejemplo.com">Texto del enlace</a>
+   ```
+
+   En este ejemplo, "https://www.ejemplo.com" es la URL de destino, y "Texto del enlace" es el texto que se muestra como enlace y que los usuarios pueden hacer clic para acceder al destino.
+
+2. Hipervínculos relativos:
+   - Puedes utilizar URLs relativas en lugar de URLs completas. Una URL relativa es una dirección que se refiere al recurso en relación con la ubicación del documento HTML actual. Por ejemplo:
+
+   ```html
+   <a href="/pagina.html">Enlace a una página interna</a>
+   ```
+
+   En este caso, "/pagina.html" se interpreta como una URL relativa al dominio actual.
+
+3. Hipervínculos a anclas:
+   - Los hipervínculos también se utilizan para enlazar a anclas dentro de la misma página. Las anclas son etiquetas especiales que se utilizan para señalar ubicaciones específicas en el mismo documento. Para enlazar a una ancla, utiliza el atributo "href" con un signo numeral "#" seguido del nombre de la ancla.
+
+   ```html
+   <a href="#seccion2">Saltar a la Sección 2</a>
+   ...
+   <a name="seccion2"></a>
+   ```
+
+   En este ejemplo, el primer enlace dirige a los usuarios a la sección con el nombre "seccion2" en la misma página.
+
+4. Hipervínculos en correos electrónicos y teléfonos:
+   - Los hipervínculos también pueden utilizarse para crear enlaces de correo electrónico y números de teléfono. Para crear un enlace de correo electrónico, utiliza "mailto:" seguido de la dirección de correo electrónico. Para enlazar a un número de teléfono, utiliza "tel:" seguido del número de teléfono.
+
+   Ejemplo de enlace de correo electrónico:
+
+   ```html
+   <a href="mailto:correo@ejemplo.com">Enviar correo</a>
+   ```
+
+   Ejemplo de enlace de número de teléfono:
+
+   ```html
+   <a href="tel:+123456789">Llamar al número de teléfono</a>
+   ```
+
+Los hipervínculos son una parte fundamental de la navegación web y permiten a los usuarios acceder a diferentes recursos en línea con facilidad. Son una característica esencial para crear una experiencia interactiva en la web y facilitar la navegación de los visitantes por un sitio.

@@ -1,0 +1,29 @@
+El sistema de color mediante componentes RGB (Red, Green, Blue) en CSS se basa en la combinación de estos tres colores primarios para crear una amplia gama de colores. En este sistema, se utilizan valores numéricos para representar la cantidad de cada uno de los componentes en una escala que va desde 0 a 255. Cada componente de color (rojo, verde y azul) se especifica utilizando la función `rgb()` en CSS.
+
+Aquí tienes una descripción más detallada del sistema de color mediante componentes RGB en CSS:
+
+1. **Función `rgb()`:** La función `rgb()` se utiliza para definir un color en CSS utilizando valores numéricos para los componentes de rojo (R), verde (G) y azul (B). Esta función toma tres argumentos, cada uno de los cuales es un número entero que representa la intensidad de cada componente. Por ejemplo, `rgb(255, 0, 0)` representa el color rojo puro, ya que el componente de rojo está configurado en su valor máximo (255) y los componentes de verde y azul están en su valor mínimo (0).
+
+2. **Valores de componentes:** Los valores de los componentes RGB varían de 0 a 255, donde 0 representa la ausencia del color y 255 representa la intensidad máxima del color. Por ejemplo:
+
+   - `rgb(255, 0, 0)` representa rojo puro.
+   - `rgb(0, 255, 0)` representa verde puro.
+   - `rgb(0, 0, 255)` representa azul puro.
+   - `rgb(255, 255, 0)` representa amarillo, ya que combina rojo y verde en su intensidad máxima.
+   - `rgb(128, 128, 128)` representa gris medio, ya que los tres componentes están a la mitad de su intensidad máxima.
+
+3. **Transparencia (RGBA):** Además de la notación RGB estándar, CSS también admite la notación RGBA, que permite especificar la opacidad del color. La notación RGBA utiliza un cuarto argumento para la opacidad, que varía de 0 (totalmente transparente) a 1 (totalmente opaco). Por ejemplo, `rgba(255, 0, 0, 0.5)` representaría el color rojo puro con una opacidad del 50%.
+
+Ejemplo de uso en CSS:
+
+```css
+p {
+  color: rgb(255, 0, 0); /* Establece el color de texto en rojo */
+}
+
+span {
+  color: rgba(0, 255, 0, 0.5); /* Establece el color de texto en verde con 50% de transparencia */
+}
+```
+
+En resumen, el sistema de color mediante componentes RGB en CSS te permite definir colores precisos especificando la intensidad de los componentes de rojo, verde y azul. Puedes crear una amplia gama de colores personalizados utilizando esta notación.

@@ -1,0 +1,32 @@
+Las fuentes web en CSS se refieren a las fuentes tipográficas que se cargan desde servidores web y se utilizan en páginas web en línea. Permiten a los diseñadores web utilizar fuentes personalizadas en sus sitios, en lugar de depender únicamente de las fuentes disponibles en las computadoras de los usuarios. Las fuentes web son una parte importante del diseño web y pueden mejorar la estética y la legibilidad de un sitio.
+
+Aquí hay una descripción de cómo funcionan las fuentes web en CSS:
+
+1. **Formatos de fuentes web:** Para utilizar fuentes web en tu página, primero debes asegurarte de que las fuentes estén disponibles en un formato compatible con la web, como WOFF (Web Open Font Format) y WOFF2, que son los formatos de fuente más utilizados para la web. También se pueden usar formatos como TTF (TrueType Font) y EOT (Embedded OpenType), aunque son menos comunes en la actualidad.
+
+2. **Cargar fuentes web:** Para cargar fuentes web en tu página, puedes utilizar la regla `@font-face` en tu hoja de estilos CSS. La regla `@font-face` define la fuente y le asigna un nombre que puedes utilizar en el resto de tu hoja de estilos. Aquí tienes un ejemplo de cómo se vería una regla `@font-face`:
+
+   ```css
+   @font-face {
+     font-family: 'MiFuentePersonalizada';
+     src: url('ruta/a/mifuenteweb.woff') format('woff');
+   }
+   ```
+
+   En este ejemplo, se carga una fuente personalizada llamada "MiFuentePersonalizada" desde un archivo WOFF ubicado en "ruta/a/mifuenteweb.woff".
+
+3. **Usar fuentes web en elementos de texto:** Después de cargar la fuente web, puedes aplicarla a elementos de texto específicos utilizando la propiedad `font-family` en tu CSS. Asegúrate de utilizar el nombre de fuente especificado en la regla `@font-face`. Por ejemplo:
+
+   ```css
+   body {
+     font-family: 'MiFuentePersonalizada', Arial, sans-serif;
+   }
+   ```
+
+   En este ejemplo, se aplica la fuente personalizada "MiFuentePersonalizada" al cuerpo del documento. Si la fuente personalizada no está disponible, se utiliza la fuente "Arial" como respaldo y, si esa tampoco está disponible, se utiliza una fuente sans-serif genérica.
+
+4. **Requisitos de licencia:** Es importante asegurarse de tener los derechos de licencia adecuados para utilizar una fuente web en tu sitio. Algunas fuentes web son de uso gratuito, mientras que otras pueden requerir una licencia o pago. Asegúrate de respetar los términos de licencia y utilizar fuentes web de manera legal.
+
+5. **Optimización de rendimiento:** Para mejorar el rendimiento de tu sitio web, puedes considerar la optimización de fuentes web. Esto implica la selección de subconjuntos de caracteres específicos para cargar solo los glifos necesarios, lo que reduce el tamaño de los archivos de fuente y acelera la carga de la página.
+
+Las fuentes web ofrecen a los diseñadores web una mayor flexibilidad y control sobre la apariencia de sus sitios, lo que permite una personalización única. Sin embargo, es importante tener en cuenta el rendimiento y las licencias al usar fuentes web para garantizar que tu sitio sea rápido y legalmente conforme.

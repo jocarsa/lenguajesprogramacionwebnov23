@@ -1,0 +1,15 @@
+En CSS, las familias tipográficas por defecto se refieren a las fuentes predeterminadas que se utilizan cuando no se especifica una fuente específica para un elemento de texto en tu página web. Estas fuentes pueden variar según el sistema operativo y el navegador del usuario, pero en general, hay algunas familias tipográficas comunes que se utilizan como fuentes por defecto en la mayoría de los navegadores. Estas familias tipográficas comunes incluyen:
+
+1. **Serif**: Las fuentes tipo "serif" tienen pequeñas proyecciones en los extremos de las letras y son conocidas por su aspecto más tradicional y formal. Ejemplos de fuentes "serif" comunes incluyen "Times New Roman", "Georgia" y "Palatino".
+
+2. **Sans-Serif**: Las fuentes "sans-serif" no tienen las proyecciones en los extremos de las letras y suelen tener un aspecto más limpio y moderno. Ejemplos de fuentes "sans-serif" comunes incluyen "Arial", "Helvetica" y "Verdana".
+
+3. **Monospace**: Las fuentes "monospace" tienen un ancho fijo para cada carácter, lo que las hace ideales para representar código o texto formateado en columnas. Ejemplos de fuentes "monospace" incluyen "Courier New" y "Monaco".
+
+4. **Fantasía**: Las fuentes de "fantasía" son fuentes decorativas y suelen utilizarse para atraer la atención o dar un aspecto único al texto. Ejemplos de fuentes de "fantasía" incluyen "Copperplate" y "Papyrus".
+
+5. **Cursiva**: Las fuentes "cursiva" tienen una inclinación característica en sus caracteres, lo que les da un aspecto inclinado. Ejemplos de fuentes "cursiva" incluyen "Italic" y "Brush Script".
+
+6. **Predeterminado o Genérico**: Algunos navegadores utilizan una fuente genérica o predeterminada en lugar de una fuente específica si no se especifica una fuente en el CSS. La fuente genérica se basa en la familia tipográfica que se supone que es la más adecuada para el contexto, como "serif", "sans-serif" o "monospace".
+
+Es importante recordar que las fuentes predeterminadas pueden variar según el sistema operativo y el navegador utilizado por el usuario, por lo que es una buena práctica definir fuentes de respaldo específicas en tus estilos CSS para garantizar una presentación coherente y controlada del texto en tu sitio web, independientemente de las fuentes predeterminadas del usuario. Esto se hace utilizando la propiedad `font-family` en tu CSS para especificar fuentes específicas en caso de que las fuentes predeterminadas no estén disponibles.

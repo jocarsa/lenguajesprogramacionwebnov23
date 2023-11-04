@@ -1,0 +1,37 @@
+El elemento `<iframe>` en HTML (Inline Frame) se utiliza para incrustar contenido externo dentro de una página web. Este contenido externo puede ser otra página web, un video, un mapa, una aplicación web, o prácticamente cualquier otro tipo de contenido en línea. Los `<iframe>` son muy versátiles y permiten integrar contenido de fuentes externas en tu sitio web. Aquí tienes una explicación detallada sobre cómo funciona el elemento `<iframe>`:
+
+**Sintaxis básica de `<iframe>`:**
+
+```html
+<iframe src="url-del-contenido" width="ancho" height="alto" frameborder="0" scrolling="auto"></iframe>
+```
+
+A continuación, se explican los atributos más comunes utilizados con `<iframe>`:
+
+- **`src` (atributo):** El atributo `src` especifica la URL de la página o recurso externo que se debe cargar en el iframe. Puedes incrustar contenido de otras páginas web o recursos en línea mediante este atributo.
+
+- **`width` y `height` (atributos):** Estos atributos definen el ancho y la altura del iframe en píxeles o porcentajes. Determinan el espacio que el iframe ocupará en la página web.
+
+- **`frameborder` (atributo):** El atributo `frameborder` se utiliza para controlar si se muestra o no un borde alrededor del iframe. Si se establece en "0," no se mostrará ningún borde; si se establece en "1," se mostrará un borde.
+
+- **`scrolling` (atributo):** El atributo `scrolling` se utiliza para controlar la visibilidad de las barras de desplazamiento en el iframe. Puede tener valores como "auto," "yes," "no," y "hidden" para controlar si se muestran barras de desplazamiento horizontal o vertical, o si no se muestran en absoluto.
+
+**Ejemplo de uso de `<iframe>`:**
+
+```html
+<iframe src="https://www.ejemplo.com" width="500" height="300" frameborder="0" scrolling="auto"></iframe>
+```
+
+En este ejemplo, se ha creado un iframe que carga la página web "https://www.ejemplo.com". El ancho se ha establecido en 500 píxeles y la altura en 300 píxeles. No se muestra ningún borde alrededor del iframe, y las barras de desplazamiento se muestran automáticamente si es necesario.
+
+El elemento `<iframe>` es útil para una variedad de situaciones, como:
+
+1. **Incrustación de videos de YouTube o Vimeo:** Puedes incrustar videos de servicios como YouTube o Vimeo en tu página web utilizando `<iframe>`.
+
+2. **Incrustación de mapas de Google Maps:** Puedes mostrar mapas interactivos de Google Maps en tu sitio web.
+
+3. **Integración de contenido de redes sociales:** Puedes incrustar publicaciones de redes sociales, feeds de Twitter, o contenido de Instagram en tu página.
+
+4. **Cargar contenido de aplicaciones web externas:** Puedes integrar aplicaciones web en tu sitio web utilizando `<iframe>`.
+
+Es importante tener en cuenta que, al utilizar `<iframe>`, debes tener permiso para mostrar el contenido de otras fuentes en tu sitio web y respetar los términos y condiciones de uso de esos servicios. Además, la seguridad es un factor importante, ya que los iframes pueden ser utilizados para ataques de seguridad si no se toman precauciones adecuadas. Por lo tanto, debes ser cauteloso al incrustar contenido de fuentes externas.

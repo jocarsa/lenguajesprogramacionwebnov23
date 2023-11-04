@@ -1,0 +1,34 @@
+Para vincular una hoja de estilo externa a un documento HTML, debes utilizar la etiqueta `<link>` en la sección `<head>` de tu documento HTML. Aquí te muestro los pasos básicos para hacerlo:
+
+1. Crea tu archivo CSS: Primero, crea un archivo CSS que contenga las reglas de estilo que deseas aplicar a tu página web. Guarda este archivo con la extensión ".css". Por ejemplo, podrías nombrarlo "estilos.css" o como desees.
+
+2. Coloca tu archivo CSS en la ubicación adecuada: Asegúrate de que tu archivo CSS esté ubicado en un lugar accesible desde tu página HTML. Esto puede ser en la misma carpeta que tu archivo HTML o en una ubicación relativa, como una carpeta separada.
+
+3. Vincula la hoja de estilo en tu archivo HTML: En el `<head>` de tu archivo HTML, agrega la siguiente línea de código utilizando la etiqueta `<link>`:
+
+```html
+<link rel="stylesheet" type="text/css" href="ruta/al/archivo.css">
+```
+
+Donde:
+- `rel="stylesheet"` especifica que estás vinculando una hoja de estilo.
+- `type="text/css"` define el tipo de contenido como CSS.
+- `href` es el atributo que debes ajustar para especificar la ruta al archivo CSS. Asegúrate de proporcionar la ruta correcta al archivo CSS. Si está en la misma carpeta que tu archivo HTML, solo necesitas proporcionar el nombre del archivo (por ejemplo, "estilos.css"). Si se encuentra en una carpeta diferente, debes especificar la ruta relativa desde tu archivo HTML (por ejemplo, "../carpeta/estilos.css").
+
+Aquí tienes un ejemplo completo de cómo se vería en tu archivo HTML:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+    <!-- Tu contenido HTML va aquí -->
+</body>
+</html>
+```
+
+Una vez que hayas vinculado la hoja de estilo externa de esta manera, las reglas de estilo definidas en tu archivo CSS se aplicarán a los elementos HTML de tu página según corresponda.

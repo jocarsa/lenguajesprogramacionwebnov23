@@ -1,0 +1,39 @@
+Para establecer el color de texto o "color de frente" en CSS, puedes utilizar la propiedad `color`. Esta propiedad te permite definir el color del texto en elementos HTML. Puedes especificar el color de diversas formas, como utilizando nombres de colores, valores hexadecimales, valores RGB o RGBA. Aquí tienes ejemplos de cómo usar la propiedad `color` en CSS:
+
+1. Utilizando nombres de colores:
+Puedes utilizar nombres de colores predefinidos en CSS. Algunos ejemplos de nombres de colores comunes son "red" (rojo), "blue" (azul), "green" (verde), "black" (negro), entre otros. Por ejemplo:
+
+```css
+p {
+  color: red; /* El texto dentro de los elementos <p> será de color rojo */
+}
+```
+
+2. Utilizando valores hexadecimales:
+Puedes especificar el color del texto utilizando valores hexadecimales, que representan combinaciones de colores rojo, verde y azul (RGB). Por ejemplo:
+
+```css
+h1 {
+  color: #FFA500; /* El texto dentro de los elementos <h1> será de color naranja */
+}
+```
+
+3. Utilizando valores RGB:
+Puedes especificar el color de texto utilizando valores RGB (Red, Green, Blue) en formato numérico. Cada valor varía de 0 a 255. Por ejemplo:
+
+```css
+a {
+  color: rgb(0, 128, 0); /* El texto dentro de los enlaces <a> será de color verde oscuro */
+}
+```
+
+4. Utilizando valores RGBA:
+La propiedad `color` también puede utilizar valores RGBA (Red, Green, Blue, Alpha) para especificar el color de texto con una transparencia. El valor "Alpha" varía de 0 (totalmente transparente) a 1 (totalmente opaco). Por ejemplo:
+
+```css
+span {
+  color: rgba(255, 0, 0, 0.5); /* El texto dentro de los elementos <span> será rojo con 50% de transparencia */
+}
+```
+
+En resumen, la propiedad `color` en CSS te permite definir el color de frente del texto en tus elementos HTML, ya sea utilizando nombres de colores, valores hexadecimales, valores RGB o RGBA, según tus necesidades de diseño.

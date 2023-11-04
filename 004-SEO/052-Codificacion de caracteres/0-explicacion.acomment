@@ -1,0 +1,25 @@
+La codificación de caracteres en HTML es un proceso que se utiliza para representar y mostrar texto en diferentes idiomas y conjuntos de caracteres. Es esencial para garantizar que el contenido web se muestre correctamente en todos los navegadores y dispositivos, independientemente de la lengua o el alfabeto utilizados. La codificación de caracteres se logra mediante el uso de diferentes estándares de codificación y metainformación en el documento HTML. Aquí se explican los aspectos más importantes de la codificación de caracteres en HTML:
+
+1. **UTF-8 (Unicode Transformation Format 8-bit):** UTF-8 es el estándar de codificación de caracteres más comúnmente utilizado en la web. Es un sistema de codificación Unicode que puede representar prácticamente todos los caracteres de todos los idiomas del mundo, lo que lo hace muy versátil. Para utilizar UTF-8 en tu documento HTML, debes incluir la siguiente línea en la sección `<head>` de tu página:
+
+   ```html
+   <meta charset="UTF-8">
+   ```
+
+   Esto le dice al navegador que el contenido de la página está codificado en UTF-8.
+
+2. **Elemento `<meta>` para la codificación:** La etiqueta `<meta>` con el atributo `charset` se utiliza para especificar la codificación de caracteres de la página web. Si no se proporciona esta información, el navegador podría asumir una codificación predeterminada, lo que puede causar problemas de visualización si el contenido contiene caracteres especiales o no está en el conjunto de caracteres predeterminado.
+
+3. **Entidades HTML:** A veces, es necesario representar caracteres especiales o símbolos que no se pueden ingresar directamente en el código HTML. Para hacerlo, se utilizan entidades HTML, que son códigos que representan caracteres especiales. Por ejemplo, `&amp;` representa el símbolo "&," y `&copy;` representa el símbolo de copyright "©."
+
+4. **Codificación de archivos:** Asegúrate de que los archivos HTML, así como cualquier otro recurso relacionado con el sitio web (como hojas de estilo CSS o archivos JavaScript), estén codificados en UTF-8. Esto garantiza que todos los elementos del sitio utilicen la misma codificación de caracteres.
+
+5. **Declaración de idioma:** Puedes especificar el idioma principal de tu página web utilizando el atributo `lang` en la etiqueta `<html>`. Esto puede ayudar a los motores de búsqueda y lectores de pantalla a comprender el idioma del contenido.
+
+   ```html
+   <html lang="es">
+   <!-- Contenido en español -->
+   </html>
+   ```
+
+La codificación de caracteres en HTML es fundamental para garantizar que el contenido se muestre de manera correcta y coherente en diferentes navegadores y dispositivos, independientemente del idioma o del conjunto de caracteres utilizado. Utilizar UTF-8 y especificar la codificación de caracteres en la metainformación de la página son buenas prácticas en desarrollo web que ayudan a evitar problemas de visualización y garantizan una experiencia óptima para los usuarios.

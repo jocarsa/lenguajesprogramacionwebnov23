@@ -1,0 +1,25 @@
+La etiqueta `<title>` en HTML se utiliza para definir el título de una página web, que es lo que aparece en la pestaña del navegador o en la barra de título de la ventana del navegador. El contenido de la etiqueta `<title>` es importante porque proporciona una descripción concisa de lo que se encuentra en la página y es lo que los usuarios ven en su navegador cuando tienen varias pestañas abiertas. Además, los motores de búsqueda utilizan el contenido de la etiqueta `<title>` para mostrar el título de la página en los resultados de búsqueda. Aquí tienes algunas características clave de la etiqueta `<title>`:
+
+1. Ubicación en el código HTML: La etiqueta `<title>` se coloca dentro de la sección `<head>` del documento HTML, como se muestra a continuación:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Título de la página</title>
+</head>
+<body>
+    <!-- Contenido de la página -->
+</body>
+</html>
+```
+
+2. Contenido: El contenido de la etiqueta `<title>` debe ser descriptivo y relevante para la página. Debería ser breve pero informativo, proporcionando a los usuarios una idea clara de lo que pueden esperar encontrar en la página.
+
+3. SEO: El contenido de la etiqueta `<title>` es fundamental para el SEO (Optimización de Motores de Búsqueda). Los motores de búsqueda utilizan el título para determinar de qué trata la página, y los títulos relevantes y atractivos pueden aumentar la visibilidad de tu sitio en los resultados de búsqueda.
+
+4. Accesibilidad: El título de una página es importante para la accesibilidad web. Los lectores de pantalla utilizan el título para anunciar el contenido de la página a los usuarios con discapacidad visual. Es importante que el título sea informativo y describa el contenido de la página de manera adecuada.
+
+5. Actualización dinámica: El contenido de la etiqueta `<title>` se puede cambiar dinámicamente mediante JavaScript. Esto es útil para sitios web que desean actualizar el título de la página en función de la actividad del usuario o el estado de la aplicación.
+
+Es importante tener en cuenta que el título de una página es una de las primeras cosas que los usuarios ven cuando visitan tu sitio web, por lo que debe ser claro, atractivo y relevante para el contenido de la página. Además, al optimizar el título para motores de búsqueda, puedes aumentar la visibilidad y la tasa de clics en los resultados de búsqueda, lo que puede ser beneficioso para el tráfico de tu sitio web.

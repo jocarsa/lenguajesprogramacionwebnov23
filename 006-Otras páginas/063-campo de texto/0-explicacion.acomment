@@ -1,0 +1,29 @@
+El elemento `<textarea>` en HTML se utiliza para crear áreas de texto de múltiples líneas en un formulario. A diferencia del elemento `<input>` que se usa para campos de una sola línea, `<textarea>` permite a los usuarios ingresar texto más extenso, como comentarios, descripciones o mensajes largos. Aquí tienes una explicación detallada sobre cómo funciona el elemento `<textarea>` en HTML:
+
+**Sintaxis básica de `<textarea>`:**
+
+```html
+<label for="comentario">Comentario:</label>
+<textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+```
+
+A continuación, se explican los atributos más comunes utilizados con `<textarea>`:
+
+- **`name` (atributo):** El atributo `name` especifica el nombre del campo de texto de múltiples líneas. Este nombre se utiliza para identificar el campo cuando se envía el formulario al servidor. Debe ser único dentro del formulario.
+
+- **`id` (atributo):** El atributo `id` proporciona un identificador único para el campo de texto de múltiples líneas. Esto es útil para vincular el campo con una etiqueta `<label>` o para acceder al campo mediante JavaScript o CSS.
+
+- **`rows` y `cols` (atributos):** Los atributos `rows` y `cols` definen el número de filas y columnas visibles del área de texto. Estos valores determinan el tamaño inicial del campo y cuánto texto es visible sin necesidad de desplazarse. Puedes ajustar estos valores según tus necesidades.
+
+**Ejemplo de uso de `<textarea>`:**
+
+```html
+<label for="comentario">Comentario:</label>
+<textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+```
+
+En este ejemplo, se ha creado un campo de texto de múltiples líneas etiquetado como "Comentario." Los atributos `rows` y `cols` determinan el tamaño inicial del campo. Los usuarios pueden escribir y editar texto en este campo de manera similar a un editor de texto.
+
+El contenido ingresado en el campo de `<textarea>` se incluirá en los datos del formulario cuando este se envíe al servidor. Puedes usar `<textarea>` para recopilar comentarios, descripciones, mensajes largos u otra información extensa de los usuarios.
+
+La etiqueta `<label>` se utiliza para proporcionar una descripción legible para los usuarios que identifica el propósito del campo de `<textarea>`. También puedes vincular el campo con la etiqueta mediante los atributos `for` y `id`, lo que mejora la accesibilidad y permite a los usuarios hacer clic en la etiqueta para enfocar el campo.

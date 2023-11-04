@@ -1,0 +1,31 @@
+La meta descripción, también conocida como "meta description" en inglés, es una etiqueta HTML que se utiliza para proporcionar una breve descripción del contenido de una página web. Esta descripción se muestra en los resultados de búsqueda de los motores de búsqueda, como Google, debajo del título de la página. La meta descripción es importante tanto para el SEO (Optimización de Motores de Búsqueda) como para mejorar la experiencia del usuario. A continuación, se explican con más detalle la meta descripción y su importancia:
+
+1. **Sintaxis de la meta descripción:**
+   La etiqueta `<meta>` para la descripción se encuentra dentro de la sección `<head>` del documento HTML de una página web. La sintaxis es la siguiente:
+
+   ```html
+   <head>
+     <meta name="description" content="Texto descriptivo de la página.">
+     <!-- Otras metainformaciones, enlaces a hojas de estilo, scripts, etc. -->
+   </head>
+   ```
+
+   La etiqueta `<meta name="description">` contiene el contenido de la descripción, que es un breve fragmento de texto que resume el contenido de la página.
+
+2. **Importancia de la meta descripción para el SEO:**
+   La meta descripción es esencial para el SEO por las siguientes razones:
+
+   - **Mejora la visibilidad en los resultados de búsqueda:** La descripción se muestra en los resultados de búsqueda, justo debajo del título de la página. Un buen fragmento de texto descriptivo puede atraer la atención de los usuarios y alentarlos a hacer clic en el enlace.
+
+   - **Informa a los motores de búsqueda:** La descripción proporciona a los motores de búsqueda información adicional sobre el contenido de la página. Esto ayuda a los motores a comprender de qué trata la página y clasificarla de manera más efectiva en los resultados de búsqueda.
+
+   - **Relevancia y palabras clave:** Puedes incluir palabras clave relevantes en la descripción para mejorar la visibilidad de la página en los resultados de búsqueda. Las palabras clave ayudan a los motores de búsqueda a asociar la página con búsquedas relacionadas.
+
+3. **Consejos para optimizar la meta descripción:**
+   - Mantén la descripción breve y concisa, idealmente entre 150 y 160 caracteres, para asegurarte de que se muestre completamente en los resultados de búsqueda.
+   - Haz que la descripción sea informativa y relevante para el contenido de la página.
+   - Utiliza palabras clave relevantes, pero de manera natural y coherente.
+   - Evita el contenido duplicado: Cada página debe tener una descripción única.
+   - Asegúrate de que la descripción sea atractiva para los usuarios y fomente el clic.
+
+La meta descripción es una herramienta valiosa para optimizar la visibilidad de tu página en los motores de búsqueda y atraer tráfico de alta calidad. Es importante dedicar tiempo a escribir descripciones relevantes y atractivas para cada página de tu sitio web como parte de tu estrategia de SEO.

@@ -1,0 +1,28 @@
+En CSS, los comentarios se utilizan para agregar notas o explicaciones dentro del código CSS. Los comentarios son útiles para documentar tu código, hacer aclaraciones o desactivar temporalmente reglas de estilo sin eliminarlas por completo. Aquí te explico cómo crear comentarios en CSS:
+
+1. Comentarios de una sola línea: Para crear un comentario de una sola línea en CSS, puedes utilizar el símbolo de doble barra "//" seguido de tu texto. El comentario se extenderá hasta el final de la línea y no afectará el estilo de la página. Por ejemplo:
+
+```css
+/* Este es un comentario de una sola línea */
+color: red; /* Esto establece el color de texto en rojo */
+```
+
+2. Comentarios de varias líneas: Si deseas crear comentarios que abarquen varias líneas, puedes utilizar la notación `/* ... */`. Todo lo que esté entre `/*` y `*/` se considerará un comentario y no se aplicará al estilo de la página. Puedes usar comentarios de varias líneas para explicar secciones de código más largas o para desactivar temporalmente un bloque de reglas. Por ejemplo:
+
+```css
+/* Este es un comentario
+   que abarca varias líneas
+   y no afecta el estilo de la página */
+
+/* Desactivando temporalmente una regla
+color: blue;
+*/
+
+/* Puedes usar comentarios para explicar bloques de código */
+body {
+  background-color: #f0f0f0; /* Fondo gris claro */
+  font-family: Arial, sans-serif; /* Tipo de fuente predeterminado */
+}
+```
+
+Recuerda que los comentarios en CSS no se mostrarán en el navegador cuando se renderice la página web. Su propósito es exclusivamente para el desarrollo, la documentación y la organización del código CSS.

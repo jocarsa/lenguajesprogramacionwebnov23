@@ -1,0 +1,97 @@
+La etiqueta `<input>` en HTML se utiliza para crear campos de entrada interactivos en formularios web. Los campos de entrada permiten a los usuarios ingresar datos que luego se envían al servidor web o se procesan de alguna manera. La etiqueta `<input>` es uno de los elementos más versátiles y ampliamente utilizados en HTML y se puede utilizar para recopilar una variedad de tipos de datos, como texto, números, contraseñas, fechas, direcciones de correo electrónico y más. Aquí hay una explicación detallada sobre cómo funciona la etiqueta `<input>` en HTML:
+
+**Sintaxis básica de la etiqueta `<input>`:**
+
+```html
+<input type="tipo-de-input" name="nombre-del-campo" value="valor-por-defecto" id="identificador" required>
+```
+
+A continuación, se explican los atributos más comunes utilizados con la etiqueta `<input>`:
+
+- **`type` (atributo):** El atributo `type` especifica el tipo de campo de entrada que se va a crear. Algunos valores comunes incluyen:
+  - `text`: Campo de texto de una sola línea.
+  - `password`: Campo de contraseña que oculta el texto ingresado.
+  - `number`: Campo numérico.
+  - `email`: Campo para direcciones de correo electrónico.
+  - `date`: Campo para selección de fecha.
+  - `checkbox`: Casilla de verificación.
+  - `radio`: Botón de radio.
+  - `file`: Carga de archivos.
+  
+- **`name` (atributo):** El atributo `name` especifica el nombre del campo, que se utiliza para identificar el campo cuando se envían los datos del formulario al servidor. Debe ser único dentro del formulario.
+
+- **`value` (atributo):** El atributo `value` define el valor inicial o predeterminado del campo de entrada. Por ejemplo, en un campo de texto, el valor puede ser un texto preexistente que aparece en el campo. En un campo de número, podría ser un número por defecto.
+
+- **`id` (atributo):** El atributo `id` proporciona un identificador único para el campo de entrada. Esto es útil para vincular el campo a etiquetas `<label>` o para acceder al campo mediante JavaScript o CSS.
+
+- **`required` (atributo):** El atributo `required` se usa para indicar que el campo de entrada es obligatorio y no puede estar vacío. Cuando se establece, el usuario debe completar el campo antes de enviar el formulario.
+
+**Ejemplo de campos de entrada HTML:**
+
+```html
+<input type="text" name="nombre" value="Tu nombre" id="nombre" required>
+<input type="email" name="correo" placeholder="tucorreo@example.com" required>
+<input type="password" name="contrasena" required>
+<input type="number" name="edad" min="18" max="99">
+<input type="checkbox" name="suscribir" value="Sí"> Suscribirse al boletín
+<input type="radio" name="genero" value="Masculino"> Masculino
+<input type="radio" name="genero" value="Femenino"> Femenino
+<input type="file" name="archivo">
+```
+
+Los campos de entrada se utilizan en formularios HTML para recopilar datos que los usuarios ingresan. Estos datos se pueden enviar al servidor web para su procesamiento. Los diferentes tipos de campos de entrada (`type`) permiten a los usuarios proporcionar información específica de acuerdo con el tipo de dato que se está recopilando. Además, los atributos `name`, `value`, `id` y `required` brindan control sobre cómo se comportan y se muestran los campos de entrada en el formulario.
+
+Los elementos HTML `<fieldset>`, `<legend>`, y `<label>` son utilizados en formularios web para mejorar la accesibilidad y la estructura de los campos de entrada. Cada uno de estos elementos cumple un propósito específico:
+
+1. **`<fieldset>`:** El elemento `<fieldset>` se utiliza para agrupar campos de entrada relacionados en un formulario. Ayuda a organizar y estructurar los campos de entrada en unidades lógicas, lo que facilita la comprensión y la navegación para los usuarios. Puedes envolver un conjunto de campos relacionados dentro de un `<fieldset>`.
+
+   Ejemplo de uso de `<fieldset>`:
+
+   ```html
+   <form>
+     <fieldset>
+       <legend>Datos personales</legend>
+       <label for="nombre">Nombre:</label>
+       <input type="text" id="nombre" name="nombre" required>
+
+       <label for="correo">Correo:</label>
+       <input type="email" id="correo" name="correo" required>
+     </fieldset>
+     <!-- Otros campos de entrada y botones -->
+   </form>
+   ```
+
+   En este ejemplo, el `<fieldset>` rodea los campos relacionados de "Nombre" y "Correo," y `<legend>` se utiliza para proporcionar una descripción o título para el grupo de campos.
+
+2. **`<legend>`:** El elemento `<legend>` se utiliza dentro de un `<fieldset>` para proporcionar un título o descripción para el grupo de campos de entrada relacionados. Este título se muestra generalmente como un encabezado antes de los campos de entrada dentro del `<fieldset`.
+
+   Ejemplo de uso de `<legend>`:
+
+   ```html
+   <form>
+     <fieldset>
+       <legend>Datos personales</legend>
+       <label for="nombre">Nombre:</label>
+       <input type="text" id="nombre" name="nombre" required>
+
+       <label for="correo">Correo:</label>
+       <input type="email" id="correo" name="correo" required>
+     </fieldset>
+     <!-- Otros campos de entrada y botones -->
+   </form>
+   ```
+
+   En este ejemplo, `<legend>` se utiliza para proporcionar el título "Datos personales" para el grupo de campos relacionados dentro del `<fieldset`.
+
+3. **`<label>`:** El elemento `<label>` se utiliza para asociar un texto descriptivo con un campo de entrada en un formulario. La etiqueta se coloca generalmente antes o después del campo de entrada y proporciona una descripción legible para los usuarios que identifica el propósito del campo.
+
+   Ejemplo de uso de `<label>`:
+
+   ```html
+   <label for="nombre">Nombre:</label>
+   <input type="text" id="nombre" name="nombre" required>
+   ```
+
+   En este ejemplo, el `<label>` con el atributo `for` se asocia con el campo de entrada de texto mediante el valor del atributo `for`, que es el mismo que el valor del atributo `id` del campo de entrada. Esto mejora la accesibilidad y permite a los usuarios hacer clic en la etiqueta para enfocar el campo de entrada.
+
+En conjunto, el uso de `<fieldset>`, `<legend>`, y `<label>` en formularios HTML ayuda a organizar y estructurar los campos de entrada, proporciona información descriptiva a los usuarios y mejora la accesibilidad al permitir que los usuarios hagan clic en las etiquetas para seleccionar los campos de entrada. Esto facilita la navegación y la comprensión de los formularios en tu sitio web.

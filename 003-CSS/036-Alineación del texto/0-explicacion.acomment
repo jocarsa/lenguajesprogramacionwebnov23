@@ -1,0 +1,39 @@
+La propiedad `text-align` en CSS se utiliza para controlar la alineación horizontal del texto dentro de un elemento HTML. Esta propiedad permite especificar si el texto debe alinearse a la izquierda, al centro, a la derecha o justificarse (alineado en ambos márgenes) dentro del contenedor o elemento que lo contiene.
+
+A continuación, te explico los valores posibles y cómo se utiliza la propiedad `text-align`:
+
+1. **left:** Este valor (o la palabra clave `start` en algunos contextos) alinea el texto a la izquierda del contenedor. El texto comienza en el lado izquierdo y se extiende hacia la derecha.
+
+   ```css
+   p {
+     text-align: left; /* Alinea el texto a la izquierda */
+   }
+   ```
+
+2. **center:** Este valor alinea el texto en el centro del contenedor, de modo que quede equidistante de los márgenes izquierdo y derecho.
+
+   ```css
+   h1 {
+     text-align: center; /* Alinea el texto en el centro */
+   }
+   ```
+
+3. **right:** Este valor alinea el texto a la derecha del contenedor. El texto comienza en el lado derecho y se extiende hacia la izquierda.
+
+   ```css
+   div {
+     text-align: right; /* Alinea el texto a la derecha */
+   }
+   ```
+
+4. **justify:** Este valor justifica el texto, lo que significa que se estira para que ocupe todo el ancho del contenedor, alineándolo tanto en el margen izquierdo como en el margen derecho. Esto crea líneas de texto que están alineadas en ambos márgenes.
+
+   ```css
+   article {
+     text-align: justify; /* Justifica el texto */
+   }
+   ```
+
+La propiedad `text-align` se aplica comúnmente a elementos como párrafos (`<p>`), encabezados (`<h1>`, `<h2>`, etc.), divs y otros contenedores de texto. También puedes utilizarla para alinear elementos en línea, como imágenes y enlaces, dentro de un contenedor. La elección de la alineación adecuada depende del diseño y la estructura de tu página web, así como de tus preferencias estéticas.
+
+Ten en cuenta que la propiedad `text-align` afecta solo a la alineación horizontal del texto. Si deseas controlar la alineación vertical, puedes considerar la propiedad `vertical-align` o el uso de otros métodos de diseño CSS.

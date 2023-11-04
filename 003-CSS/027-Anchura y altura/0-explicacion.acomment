@@ -1,0 +1,53 @@
+En CSS, la anchura (ancho) y la altura se utilizan para definir las dimensiones de los elementos HTML, como divs, imágenes, texto y otros elementos. Estas propiedades son fundamentales para controlar el diseño y la presentación de tu página web. Aquí te explico en detalle cómo funcionan:
+
+1. **Anchura (width):** La propiedad `width` en CSS se utiliza para establecer el ancho de un elemento. Puedes especificar el valor en píxeles (px), porcentaje (%), unidades relativas (como "em" o "rem"), o valores específicos como "auto". A continuación, algunos ejemplos:
+
+   - Especificar un ancho en píxeles:
+     ```css
+     .mi-elemento {
+       width: 200px; /* Establece un ancho de 200 píxeles */
+     }
+     ```
+
+   - Especificar un ancho en porcentaje del elemento contenedor:
+     ```css
+     .otro-elemento {
+       width: 50%; /* Establece el ancho al 50% del ancho de su elemento contenedor */
+     }
+     ```
+
+   - Usar "auto" para que el ancho se ajuste automáticamente al contenido:
+     ```css
+     .tercer-elemento {
+       width: auto; /* El ancho se ajustará automáticamente al contenido */
+     }
+     ```
+
+2. **Altura (height):** La propiedad `height` en CSS se utiliza para establecer la altura de un elemento. Al igual que con `width`, puedes especificar la altura en píxeles, porcentaje, unidades relativas o utilizar "auto" para que la altura se ajuste automáticamente al contenido. Ejemplos:
+
+   - Especificar una altura en píxeles:
+     ```css
+     .mi-elemento {
+       height: 150px; /* Establece una altura de 150 píxeles */
+     }
+     ```
+
+   - Especificar una altura en porcentaje del elemento contenedor:
+     ```css
+     .otro-elemento {
+       height: 75%; /* Establece la altura al 75% de la altura de su elemento contenedor */
+     }
+     ```
+
+   - Usar "auto" para que la altura se ajuste automáticamente al contenido:
+     ```css
+     .tercer-elemento {
+       height: auto; /* La altura se ajustará automáticamente al contenido */
+     }
+     ```
+
+3. **Valores iniciales y por defecto:** Si no especificas un valor para `width` o `height`, la mayoría de los elementos HTML adoptarán un ancho y una altura predeterminados basados en su contenido y las propiedades de su elemento contenedor. Esto significa que, por defecto, la mayoría de los elementos se ajustarán automáticamente a su contenido.
+
+4. **Importancia de la propiedad "box-sizing":** La propiedad `box-sizing` también es relevante al trabajar con anchura y altura. Puedes usarla para controlar si los valores de `width` y `height` incluyen o no el relleno (padding) y el borde (border) del elemento. Los valores posibles son "content-box" (valor por defecto) y "border-box". Cambiar esta propiedad puede afectar cómo se calculan las dimensiones reales del elemento.
+
+En resumen, las propiedades `width` y `height` en CSS te permiten controlar las dimensiones de los elementos HTML en tu página web, lo que es esencial para el diseño y la disposición de contenido en tu sitio. Puedes especificar estas dimensiones en diferentes unidades y, en algunos casos, permitir que se ajusten automáticamente al contenido.

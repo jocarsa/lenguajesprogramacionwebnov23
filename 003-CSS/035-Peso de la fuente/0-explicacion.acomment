@@ -1,0 +1,44 @@
+La propiedad `font-weight` en CSS se utiliza para controlar el grosor o la "negrita" de la fuente tipográfica utilizada en elementos HTML. Esta propiedad te permite especificar si el texto debe mostrarse con un grosor ligero, normal, seminegrita, negrita u otros niveles de peso tipográfico. La mayoría de las fuentes tienen varios niveles de peso disponibles, y la propiedad `font-weight` permite elegir el nivel deseado para enfatizar el texto en tu página web.
+
+A continuación, te proporciono información detallada sobre cómo funciona la propiedad `font-weight`:
+
+1. **Valores numéricos:** `font-weight` puede tomar valores numéricos que van desde 100 hasta 900, en incrementos de 100. El valor predeterminado es `normal`, que generalmente equivale a 400. Algunos valores comunes incluyen:
+
+   - `100`: Thin (delgada).
+   - `200`: Extra Light (muy ligera).
+   - `300`: Light (ligera).
+   - `400`: Normal (predeterminada).
+   - `500`: Medium (media).
+   - `600`: Semi-Bold (seminegrita).
+   - `700`: Bold (negrilla).
+   - `800`: Extra Bold (extra negrilla).
+   - `900`: Black (negra).
+
+   Puedes especificar estos valores numéricos directamente en tu hoja de estilos CSS, por ejemplo:
+
+   ```css
+   p {
+     font-weight: 600; /* Establece un peso de fuente seminegrita para los párrafos */
+   }
+   ```
+
+2. **Palabras clave:** Además de los valores numéricos, `font-weight` admite palabras clave como `normal`, `bold`, `bolder` y `lighter` para definir el peso de la fuente. Estas palabras clave son relativas y dependen del nivel de peso actual del texto heredado de sus elementos padre.
+
+   - `normal`: Equivale a un peso de fuente de 400.
+   - `bold`: Equivale a un peso de fuente de 700.
+   - `bolder`: Aumenta el peso de fuente en relación con el elemento padre.
+   - `lighter`: Reduce el peso de fuente en relación con el elemento padre.
+
+   Por ejemplo:
+
+   ```css
+   h1 {
+     font-weight: bold; /* Establece un peso de fuente negrita para los encabezados h1 */
+   }
+   ```
+
+3. **Herencia de peso de fuente:** El peso de fuente se hereda de los elementos padre a los elementos hijos. Por lo tanto, si defines el peso de fuente en un elemento padre, este se heredará a los elementos hijos, a menos que se les asigne un peso de fuente diferente de manera explícita.
+
+4. **Compatibilidad con fuentes:** No todas las fuentes admiten todos los niveles de peso. Algunas fuentes pueden tener disponibles solo algunos niveles, como "normal" y "bold". Asegúrate de que la fuente que estás utilizando en tu sitio web sea compatible con los niveles de peso que deseas aplicar.
+
+La propiedad `font-weight` es útil para enfatizar ciertas partes del texto y mejorar la jerarquía visual en tu página web. Al elegir el peso de fuente adecuado, puedes crear una apariencia visualmente atractiva y facilitar la lectura y la comprensión del contenido.

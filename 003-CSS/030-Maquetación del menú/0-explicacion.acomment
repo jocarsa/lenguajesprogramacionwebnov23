@@ -1,0 +1,19 @@
+La propiedad `display` en CSS se utiliza para controlar cómo se muestra un elemento HTML en la página web. Esta propiedad determina el modelo de caja y el comportamiento de diseño del elemento, es decir, cómo se comporta en relación con otros elementos y cómo se representa en la página. `display` puede tomar varios valores que afectan la forma en que se muestra el elemento. Los valores más comunes de `display` son:
+
+1. `block`: Los elementos con `display: block` se representan como bloques rectangulares que ocupan toda la anchura disponible y comienzan en una nueva línea. Ejemplos de elementos de bloque son `<div>`, `<p>`, `<h1>`, `<ul>`, y `<li>`. Los elementos de bloque se apilan uno encima del otro de forma predeterminada.
+
+2. `inline`: Los elementos con `display: inline` se representan en línea con el flujo del texto, sin comenzar en una nueva línea. Esto significa que los elementos `inline` no crean un salto de línea y solo ocupan el espacio necesario para su contenido. Ejemplos de elementos `inline` son `<a>`, `<span>`, `<strong>`, y `<em>`.
+
+3. `inline-block`: Los elementos con `display: inline-block` son similares a los elementos `inline`, pero permiten ajustar el ancho y el alto y se comportan como bloques en cuanto a la posibilidad de configurar dimensiones. Son útiles cuando deseas que un elemento esté en línea pero también pueda tener propiedades de bloque, como anchura y altura personalizadas.
+
+4. `none`: Los elementos con `display: none` están ocultos y no se renderizan en la página. Se utilizan comúnmente para ocultar temporalmente elementos sin eliminarlos del código HTML. Esto puede ser útil para mostrar u ocultar contenido dinámicamente mediante JavaScript.
+
+5. `inline-table`, `table`, `table-row`, `table-cell`, etc.: Estos valores se utilizan para controlar el diseño y la visualización de tablas y sus elementos internos. Por ejemplo, `display: table` se utiliza para representar un elemento como una tabla, y `display: table-cell` se utiliza para representar un elemento como una celda de tabla.
+
+6. `flex` y `grid`: Estos valores se utilizan para implementar flexbox y grid layout, que son sistemas de diseño flexibles y potentes en CSS. Permiten un control avanzado del diseño y la alineación de elementos en una página.
+
+7. `list-item`: Este valor se utiliza para elementos de lista (por ejemplo, `<li>`), y se representa como un elemento de lista con un marcador, como un punto o un número.
+
+8. `inherit`: El valor `inherit` hace que el elemento herede la propiedad `display` de su elemento contenedor. Esto permite que los elementos secundarios hereden la propiedad `display` de los elementos padres.
+
+La propiedad `display` es fundamental para el diseño web, ya que permite controlar cómo se comportan los elementos y cómo se organizan en la página. Al comprender y utilizar adecuadamente los valores de `display`, puedes lograr el diseño deseado para tu sitio web y controlar el flujo y la disposición de los elementos de manera efectiva.

@@ -1,0 +1,28 @@
+El elemento `<input>` con el atributo `type="submit"` se utiliza en formularios HTML para crear botones de envío. Estos botones permiten a los usuarios enviar los datos ingresados en un formulario al servidor para su procesamiento. Aquí tienes una explicación detallada sobre cómo funciona el campo de entrada de envío (`<input type="submit>`) en HTML:
+
+**Sintaxis básica de `<input>` tipo "submit":**
+
+```html
+<input type="submit" value="Enviar">
+```
+
+A continuación, se explican los atributos más comunes utilizados con el campo de entrada de envío:
+
+- **`type` (atributo):** El atributo `type` especifica que este es un campo de entrada de tipo "submit." Los botones de tipo "submit" se utilizan para enviar el formulario al servidor cuando se hace clic en ellos.
+
+- **`value` (atributo):** El atributo `value` define el texto o la etiqueta que se muestra en el botón de envío. Por lo general, muestra una etiqueta como "Enviar," "Guardar" o cualquier otro texto descriptivo que indique la acción que se realizará al hacer clic en el botón.
+
+**Ejemplo de uso de `<input>` tipo "submit":**
+
+```html
+<form action="procesar.php" method="post">
+  <!-- Otros campos de entrada -->
+  <input type="submit" value="Enviar">
+</form>
+```
+
+En este ejemplo, se ha creado un botón de envío etiquetado como "Enviar" dentro de un formulario. Cuando un usuario completa el formulario y hace clic en este botón, los datos ingresados se envían al servidor especificado en el atributo `action` del formulario utilizando el método especificado en el atributo `method`.
+
+Es importante destacar que un formulario puede tener un solo campo de entrada de envío. Si tienes varios botones en un formulario, cada uno debe tener su propio campo de entrada de tipo "submit" con un atributo `value` diferente, lo que permite realizar acciones específicas al hacer clic en cada botón. Por ejemplo, puedes tener un botón "Enviar" y un botón "Cancelar" en el mismo formulario.
+
+En resumen, el campo de entrada de envío (`<input type="submit>`) es esencial en los formularios HTML y se utiliza para permitir a los usuarios enviar los datos ingresados en el formulario al servidor. Puedes personalizar el texto del botón de envío utilizando el atributo `value`, lo que ayuda a los usuarios a comprender la acción que se realizará al hacer clic en el botón.

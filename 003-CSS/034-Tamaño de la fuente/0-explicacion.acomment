@@ -1,0 +1,28 @@
+La propiedad `font-size` en CSS se utiliza para establecer el tamaño del texto en elementos HTML. Permite controlar el tamaño de la fuente tipográfica utilizada para mostrar el contenido en tu página web. Puedes especificar el tamaño de la fuente en diferentes unidades, como píxeles (px), em, rem, porcentaje (%) o palabras clave, y esta propiedad afecta a todos los elementos descendientes del elemento al que se aplica.
+
+A continuación, te proporciono información detallada sobre cómo funciona la propiedad `font-size`:
+
+1. **Unidades de medida:**
+   - **Píxeles (px):** Esta es la unidad de medida más común y representa un número específico de píxeles en la pantalla. Por ejemplo, `font-size: 16px;` establece el tamaño de la fuente en 16 píxeles.
+   - **Em (em):** Esta unidad de medida es relativa al tamaño de la fuente del elemento padre. Por ejemplo, si `font-size: 1.5em;` se aplica a un elemento dentro de un elemento padre con un tamaño de fuente de 16 píxeles, el tamaño de la fuente resultante será de 24 píxeles (1.5 veces el tamaño del elemento padre).
+   - **Rem (rem):** Al igual que la unidad "em", pero esta es relativa al tamaño de la fuente del elemento raíz (generalmente el elemento `<html>`). Esto asegura una consistencia en el tamaño de fuente en todo el sitio web.
+   - **Porcentaje (%):** Puedes especificar el tamaño de fuente como un porcentaje del tamaño de fuente del elemento padre. Por ejemplo, `font-size: 150%;` aumenta el tamaño de la fuente al 150% del tamaño de fuente del elemento padre.
+   - **Palabras clave:** CSS también admite palabras clave predefinidas para tamaños de fuente, como `small`, `medium`, `large`, `larger`, y `smaller`. Estas palabras clave son relativas y pueden variar según el navegador.
+
+2. **Uso de la propiedad `font-size`:** Puedes aplicar la propiedad `font-size` a elementos individuales en tu hoja de estilos CSS, como encabezados, párrafos o cualquier elemento de texto. Aquí tienes un ejemplo:
+
+   ```css
+   p {
+     font-size: 18px; /* Establece el tamaño de fuente de los párrafos en 18 píxeles */
+   }
+
+   h1 {
+     font-size: 32px; /* Establece el tamaño de fuente de los encabezados h1 en 32 píxeles */
+   }
+   ```
+
+3. **Herencia de tamaño de fuente:** El tamaño de fuente se hereda de los elementos padre a los elementos hijos. Por lo tanto, si estableces el tamaño de fuente en un elemento padre, sus elementos hijos heredarán ese tamaño a menos que se les asigne un tamaño de fuente diferente de manera explícita.
+
+4. **Sobreescribir el tamaño de fuente:** Puedes sobreescribir el tamaño de fuente heredado en elementos hijos utilizando la propiedad `font-size`. Esto es útil para ajustar el tamaño de fuente según tus necesidades de diseño.
+
+La propiedad `font-size` es esencial para el diseño y la legibilidad de tu página web. Al elegir tamaños de fuente apropiados y aplicarlos de manera consistente en tu sitio, puedes mejorar la experiencia del usuario y la apariencia de tu contenido.

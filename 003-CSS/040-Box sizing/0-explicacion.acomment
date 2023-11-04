@@ -1,0 +1,29 @@
+La propiedad `box-sizing` en CSS se utiliza para controlar la forma en que se calcula el tamaño total de un elemento, incluyendo su contenido, relleno (padding) y bordes. Esta propiedad afecta a la caja de modelo de un elemento HTML, que determina cómo se distribuye el espacio y se mide el tamaño del elemento en relación con su contenido.
+
+La propiedad `box-sizing` puede tener dos valores principales:
+
+1. **`content-box` (valor predeterminado):** En este modo de caja (el valor predeterminado), el tamaño total de un elemento se calcula considerando únicamente el contenido del elemento. El relleno (padding) y el borde se agregan al tamaño total del elemento. Esto significa que el tamaño del contenido es lo que especificas en tu CSS, y el relleno y el borde se suman a ese tamaño.
+
+   ```css
+   .mi-elemento {
+     box-sizing: content-box; /* Valor predeterminado */
+     width: 300px; /* Tamaño del contenido */
+     padding: 20px; /* Agrega espacio de relleno */
+     border: 2px solid black; /* Agrega un borde */
+     /* El tamaño total es 324px (300px de contenido + 20px de relleno a cada lado + 2px de borde a cada lado) */
+   }
+   ```
+
+2. **`border-box`:** En este modo de caja, el tamaño total del elemento se calcula considerando tanto el contenido como el relleno y el borde. El relleno y el borde se incluyen dentro del tamaño especificado para el elemento. Esto puede ser útil para mantener un control más predecible sobre el tamaño del elemento, especialmente en diseños de caja con anchos fijos.
+
+   ```css
+   .mi-elemento {
+     box-sizing: border-box;
+     width: 300px; /* Tamaño total, incluyendo el relleno y el borde */
+     padding: 20px; /* Incluido dentro del tamaño total */
+     border: 2px solid black; /* Incluido dentro del tamaño total */
+     /* El tamaño total sigue siendo 300px (20px de relleno a cada lado y 2px de borde a cada lado están incluidos) */
+   }
+   ```
+
+La elección de `box-sizing` puede afectar la forma en que diseñas tu página web. Al utilizar `border-box`, puedes mantener un control más preciso sobre el tamaño de los elementos, especialmente cuando trabajas con anchos fijos y diseños de cuadrícula. Por otro lado, `content-box` mantiene la compatibilidad con el modelo de caja tradicional, donde el tamaño del contenido es independiente del relleno y el borde. La elección depende de tus necesidades y preferencias de diseño específicas.

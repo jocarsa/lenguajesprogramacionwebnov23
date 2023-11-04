@@ -1,0 +1,47 @@
+La propiedad `text-decoration` en CSS se utiliza para controlar la decoración del texto en elementos HTML, como enlaces (hipervínculos) y otros elementos de texto. `text-decoration` permite agregar o quitar decoraciones visuales al texto, como subrayado, tachado y efectos de línea en un elemento. Los valores más comunes de `text-decoration` son:
+
+1. `none`: Este valor elimina todas las decoraciones de texto, como subrayado y tachado.
+
+```css
+a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+```
+
+2. `underline`: Este valor agrega un subrayado al texto.
+
+```css
+h1 {
+  text-decoration: underline; /* Subraya el texto en elementos <h1> */
+}
+```
+
+3. `overline`: Este valor agrega una línea sobre el texto.
+
+```css
+p {
+  text-decoration: overline; /* Agrega una línea sobre el texto en elementos <p> */
+}
+```
+
+4. `line-through`: Este valor agrega una línea a través del texto, creando un efecto de tachado.
+
+```css
+del {
+  text-decoration: line-through; /* Tacha el texto en elementos <del> */
+}
+```
+
+5. `blink` (obsoleto): Aunque se incluye en CSS, el valor `blink` no es ampliamente compatible y no se recomienda su uso. Este valor hace que el texto parpadee.
+
+6. Combinaciones de valores: Puedes combinar los valores de `text-decoration` para aplicar múltiples decoraciones al texto, como subrayado y tachado al mismo tiempo.
+
+```css
+a {
+  text-decoration: underline line-through; /* Subraya y tacha el texto de los enlaces */
+}
+```
+
+Además de los valores mencionados anteriormente, `text-decoration` también admite otros valores, como `inherit` (heredar la decoración del texto de su elemento padre) y `initial` (restablecer la decoración del texto al valor inicial).
+
+El uso de `text-decoration` es común en la personalización de enlaces (hipervínculos) para indicar su estado (visitados, no visitados, activos, etc.) y para mejorar la presentación del texto en elementos HTML. Por ejemplo, al cambiar el valor de `text-decoration` en los enlaces, puedes quitar el subrayado por defecto o personalizar la apariencia de los enlaces visitados y no visitados para que se destaquen en tu sitio web.

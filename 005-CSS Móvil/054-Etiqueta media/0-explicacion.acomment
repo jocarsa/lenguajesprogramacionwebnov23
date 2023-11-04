@@ -1,0 +1,46 @@
+Las media queries en CSS son una técnica que te permite aplicar estilos CSS específicos basados en las características del medio en el que se visualiza tu sitio web. Estas características pueden incluir el ancho de la ventana del navegador, la orientación del dispositivo, la resolución de pantalla y muchas otras. Las media queries son fundamentales para crear diseños web adaptables y receptivos que se ajusten a diferentes dispositivos y tamaños de pantalla. Aquí tienes una explicación más detallada sobre cómo funcionan las media queries:
+
+1. **Sintaxis de una media query:** Las media queries se escriben utilizando la sintaxis `@media`, seguida de una condición o consulta que especifica cuándo se aplicarán los estilos CSS. Por ejemplo, aquí tienes una media query que aplica estilos cuando el ancho de la ventana es igual o menor a 768 píxeles:
+
+   ```css
+   @media (max-width: 768px) {
+     /* Estilos CSS para pantallas de 768 píxeles o menos */
+     body {
+       font-size: 16px;
+     }
+     /* Otros estilos para pantallas más pequeñas */
+   }
+   ```
+
+   En este ejemplo, los estilos CSS definidos dentro de la media query se aplicarán cuando la pantalla sea igual o menor a 768 píxeles de ancho.
+
+2. **Condiciones de media queries:** Puedes especificar condiciones basadas en diferentes características de medios, como el ancho, la altura, la orientación, la resolución, la relación de aspecto, etc. Aquí tienes algunos ejemplos de condiciones comunes:
+
+   - `max-width`: Se aplica cuando el ancho de la ventana es igual o menor al valor especificado.
+   - `min-width`: Se aplica cuando el ancho de la ventana es igual o mayor al valor especificado.
+   - `orientation`: Puedes aplicar estilos específicos en función de la orientación del dispositivo, ya sea "portrait" (vertical) o "landscape" (horizontal).
+   - `min-resolution` y `max-resolution`: Establecen condiciones basadas en la resolución de la pantalla.
+
+3. **Diseño receptivo:** Las media queries son esenciales para crear diseños web receptivos. Puedes definir diferentes reglas de estilo para diferentes tamaños de pantalla, lo que permite que tu sitio web se adapte y se vea bien en dispositivos desde teléfonos móviles hasta pantallas de escritorio.
+
+4. **Múltiples media queries:** Puedes tener múltiples media queries en una hoja de estilo CSS, lo que te permite definir estilos específicos para diferentes rangos de tamaños de pantalla. Por ejemplo:
+
+   ```css
+   @media (max-width: 768px) {
+     /* Estilos para pantallas pequeñas */
+   }
+
+   @media (min-width: 769px) and (max-width: 1024px) {
+     /* Estilos para pantallas medianas */
+   }
+
+   @media (min-width: 1025px) {
+     /* Estilos para pantallas grandes */
+   }
+   ```
+
+5. **Optimización para dispositivos:** Además de la adaptación del diseño, las media queries también pueden usarse para optimizar el rendimiento y la experiencia del usuario en dispositivos específicos. Por ejemplo, puedes cargar imágenes de menor resolución en dispositivos móviles para reducir el tiempo de carga.
+
+6. **Compatibilidad con navegadores:** Las media queries son compatibles con la mayoría de los navegadores modernos. Sin embargo, es importante realizar pruebas cruzadas para asegurarse de que los estilos se apliquen correctamente en diferentes dispositivos y navegadores.
+
+En resumen, las media queries en CSS son una herramienta poderosa para crear diseños web receptivos y adaptativos. Te permiten personalizar la apariencia de tu sitio web en función de las características del medio en el que se visualiza, lo que mejora la experiencia del usuario y garantiza que tu sitio sea accesible en una amplia variedad de dispositivos y tamaños de pantalla.

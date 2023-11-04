@@ -1,0 +1,13 @@
+El sistema de color hexadecimal, comúnmente abreviado como "hex color" o "color hex", es un sistema numérico que se utiliza para representar colores en la web y en aplicaciones de diseño. Este sistema se basa en la combinación de valores hexadecimales que representan los componentes de color rojo (R), verde (G) y azul (B) para crear una amplia gama de colores. Cada componente de color tiene un rango de valores que va desde 00 (0 en decimal) hasta FF (255 en decimal), lo que resulta en un total de 256 posibles valores para cada componente.
+
+Aquí hay algunos aspectos clave del sistema de color hexadecimal:
+
+1. Notación hexadecimal: Los valores hexadecimales utilizan una base de 16 en lugar de la base 10 utilizada en el sistema decimal. En la notación hexadecimal, los números van desde 0 al 9 y luego de la A a la F, lo que representa los valores 10 a 15. Los valores hexadecimales se representan con un prefijo "#" seguido de dos dígitos para cada componente de color. Por ejemplo, "#RRGGBB" representa un color en formato hexadecimal.
+
+2. Componentes de color: En el sistema hexadecimal, se utilizan tres componentes de color para definir un color: rojo (R), verde (G) y azul (B). Cada componente se representa con dos dígitos hexadecimales que varían de 00 (mínimo) a FF (máximo). Por ejemplo, "#FF0000" representa el color rojo puro, ya que el componente de rojo está configurado en su valor máximo (FF), mientras que los componentes de verde y azul están en su valor mínimo (00).
+
+3. Combinación de colores: Puedes mezclar estos componentes de color en diferentes proporciones para obtener una amplia gama de colores. Por ejemplo, "#00FF00" representa el color verde puro, ya que el componente verde está configurado en su valor máximo, mientras que los componentes de rojo y azul están en su valor mínimo.
+
+4. Transparencia: Además de los valores de color tradicionales, el sistema de color hexadecimal también puede incluir un cuarto componente, que representa la transparencia (alfa). Esto se conoce como notación RGBA. Por ejemplo, "#RRGGBBAA" donde AA representa la opacidad del color, con 00 siendo totalmente transparente y FF siendo totalmente opaco.
+
+En resumen, el sistema de color hexadecimal es ampliamente utilizado en diseño web y gráfico para representar colores de manera precisa y eficiente. Te permite definir una gran variedad de colores utilizando combinaciones de valores hexadecimales para los componentes de color rojo, verde y azul, y opcionalmente, la opacidad.

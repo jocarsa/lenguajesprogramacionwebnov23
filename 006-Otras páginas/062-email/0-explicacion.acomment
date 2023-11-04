@@ -1,0 +1,21 @@
+El elemento `<input>` con el atributo `type="email"` se utiliza en formularios HTML para recopilar direcciones de correo electrónico de los usuarios. Este tipo de campo de entrada está diseñado específicamente para validar que el valor ingresado sea una dirección de correo electrónico válida. Aquí hay una explicación más detallada sobre cómo funciona el campo de entrada de correo electrónico (`<input type="email>`) en HTML:
+
+**Sintaxis básica de `<input>` tipo "email":**
+
+```html
+<label for="email">Correo Electrónico:</label>
+<input type="email" id="email" name="email" required>
+```
+
+- El atributo `type="email"` especifica que este es un campo de entrada para direcciones de correo electrónico. Cuando el usuario ingresa datos en este campo, el navegador verifica automáticamente si el valor ingresado se ajusta a la estructura de una dirección de correo electrónico válida.
+
+- El atributo `id` y el atributo `for` en la etiqueta `<label>` se utilizan para vincular el campo de entrada con la etiqueta. Esto mejora la accesibilidad y permite a los usuarios hacer clic en la etiqueta para enfocar el campo de entrada.
+
+- El atributo `name` especifica el nombre del campo, que se usa para identificar el campo cuando se envía el formulario al servidor.
+
+- El atributo `required` indica que este campo de entrada es obligatorio y no puede estar vacío. El navegador generará una validación automática para garantizar que se proporcione una dirección de correo electrónico.
+
+**Validación de correo electrónico:**
+Cuando se utiliza un campo de entrada de tipo "email," el navegador web verifica si el valor ingresado cumple con el formato básico de una dirección de correo electrónico. Esto significa que el campo debe contener al menos un carácter "@", seguido de un dominio válido, como "ejemplo.com". Si el valor ingresado no cumple con este formato, el navegador mostrará un mensaje de error y no permitirá que el formulario se envíe hasta que se ingrese una dirección de correo electrónico válida.
+
+Los campos de entrada de correo electrónico son útiles para recopilar direcciones de correo electrónico de los usuarios de manera precisa y validar que se proporcionen de manera correcta. También mejoran la experiencia del usuario al mostrar mensajes de error claros si se ingresan datos incorrectos o faltantes.
