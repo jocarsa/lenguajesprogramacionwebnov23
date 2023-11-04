@@ -1,0 +1,22 @@
+El código que has proporcionado se refiere a la estilización de elementos HTML utilizando hojas de estilo CSS. En particular, la parte del código que mencionaste se centra en el elemento `<iframe>`. Aquí tienes una explicación de esa parte específica:
+
+```css
+iframe {
+    display: inline-block;
+    width: 49%;
+    height: 300px;
+    margin-top: 40px;
+}
+```
+
+- `iframe`: Esto es un selector de elementos CSS que se aplica a todos los elementos `<iframe>` en la página HTML.
+
+- `display: inline-block;`: Esta propiedad CSS se utiliza para que el elemento `<iframe>` se comporte como un elemento en línea, pero que permita aplicar anchura (width) y altura (height) personalizadas. De esta manera, los elementos `<iframe>` se pueden colocar uno al lado del otro horizontalmente.
+
+- `width: 49%;`: Establece el ancho del elemento `<iframe>`. Aquí, se define que ocupará el 49% del ancho del contenedor padre. Esto se utiliza para controlar el ancho relativo del elemento `<iframe`.
+
+- `height: 300px;`: Define la altura del elemento `<iframe> en 300 píxeles. Esto asegura que el mapa de Google tenga una altura específica en la página.
+
+- `margin-top: 40px;`: Agrega un margen superior de 40 píxeles al elemento `<iframe>`. Esto crea un espacio entre el formulario y el mapa de Google para un mejor diseño visual.
+
+En resumen, esta parte del código CSS se encarga de dar estilo al elemento `<iframe> para controlar su ancho, altura y posición en la página web. El elemento `<iframe>` se muestra como un elemento en línea que ocupa el 49% del ancho del contenedor padre, tiene una altura de 300 píxeles y se separa del contenido anterior con un margen superior de 40 píxeles.

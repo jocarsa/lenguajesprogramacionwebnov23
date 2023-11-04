@@ -1,0 +1,17 @@
+El código proporcionado contiene reglas de estilo CSS que se aplicarán a elementos HTML en un formulario. A continuación, explicaré cada parte del código:
+
+1. **Selector `form` con `display` y `width`**:
+   - `form` es un selector que se aplicará a todos los elementos `<form>` en el HTML.
+   - `display: inline-block;` establece la propiedad de visualización de los formularios como "inline-block." Esto hará que los formularios se muestren en línea con otros elementos en la página, pero aún conservarán la capacidad de establecer un ancho y alto.
+   - `width: 50%;` define que los formularios ocuparán el 50% del ancho del contenedor padre al que están contenidos. Esto permite controlar su ancho en relación con el diseño de la página.
+
+2. **Selector `form input` y `form textarea` con `width` y `padding`**:
+   - `form input, form textarea` son selectores que se aplicarán a todos los elementos `<input>` y `<textarea>` que están dentro de un formulario.
+   - `width: 98%;` establece que los campos de entrada (input) y las áreas de texto (textarea) ocuparán el 98% del ancho del contenedor del formulario. Esto crea un espacio en blanco del 1% alrededor de los elementos dentro del formulario.
+   - `padding-top: 10px;` y `padding-bottom: 10px;` agregan un relleno superior e inferior de 10 píxeles a los elementos de entrada y textarea. Esto proporciona un espacio adicional entre el texto del usuario y el borde del elemento.
+
+3. **Selector `fieldset` con `border`**:
+   - `fieldset` es un selector que se aplicará a todos los elementos `<fieldset>` en el formulario.
+   - `border: 1px solid rgb(220, 220, 220);` establece un borde alrededor de los elementos `<fieldset>` con un ancho de 1 píxel, un estilo sólido y un color de borde de RGB (220, 220, 220). Esto crea un borde visible alrededor de los fieldsets, lo que puede ayudar a agrupar y separar secciones dentro del formulario.
+
+En resumen, el código CSS proporciona estilos para formularios, campos de entrada (input), áreas de texto (textarea) y fieldsets en un formulario. Los estilos se aplican para controlar el ancho, el espaciado y el borde de estos elementos, lo que puede mejorar la apariencia y usabilidad de los formularios en una página web.

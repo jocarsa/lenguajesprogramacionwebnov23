@@ -1,0 +1,30 @@
+En el código CSS que proporcionaste, hay varias novedades y cambios con respecto al código anterior. Aquí están los cambios específicos:
+
+1. `#sobremi`:
+   - `vertical-align: middle;`: La propiedad `vertical-align` se establece en "middle" para el elemento con la identificación "sobremi." Esto no es una propiedad válida en CSS; debería ser `vertical-align: middle;`. Sin embargo, `vertical-align` suele usarse en contexto de elementos `inline` o `inline-block` y no en el contenedor principal.
+
+2. `#sobremi img`:
+   - `width: 40%;`: El ancho de las imágenes se ha reducido al 40% en lugar del 50% anterior.
+   - `display: inline-block;`: Se mantiene como `inline-block`.
+   - `vertical-align: middle;`: La propiedad `vertical-align` se mantiene como "middle," lo cual generalmente se utiliza para alinear elementos verticalmente en un contenedor. Esta propiedad se usa en el contexto de elementos `inline` o `inline-block`.
+
+3. `#sobremi .texto`:
+   - `width: 59%;`: El ancho de los elementos con la clase "texto" se ha ajustado al 59% en lugar del 49% anterior.
+   - `height: 300px;`: Se ha establecido una altura fija de 300px para los elementos con la clase "texto."
+   - `display: inline-block;`: Se mantiene como `inline-block`.
+   - `vertical-align: middle;`: Al igual que en `#sobremi img`, se establece `vertical-align: middle;` para alinear verticalmente estos elementos.
+   - `padding-left: 20px;`: Se ha agregado un relleno de 20px al lado izquierdo del elemento "texto."
+   - `box-sizing: border-box;`: La propiedad `box-sizing` se establece en "border-box," lo que significa que el relleno y el borde se incluirán en el ancho y alto total del elemento.
+   - `text-align: justify;`: Se ha agregado `text-align: justify;`, lo que justificará el texto dentro de los elementos "texto."
+
+4. `.bloque:nth-child(odd) img`:
+   - `float: right;`: Las imágenes dentro de los elementos con la clase "bloque" y que son impares según su orden en la jerarquía se han configurado para flotar a la derecha.
+
+5. `.bloque:nth-child(odd) .texto`:
+   - `float: left;`: Los elementos "texto" dentro de los elementos "bloque" que son impares ahora flotarán a la izquierda.
+   - `padding-left: 0px !important;`: Se ha agregado `padding-left: 0px !important;` para anular cualquier relleno izquierdo que se haya establecido anteriormente. El `!important` asegura que esta regla se aplique incluso si hay reglas previas con relleno izquierdo.
+
+6. `.clearfix`:
+   - `clear: both;`: No se han realizado cambios en esta clase; simplemente se utiliza para forzar que los elementos siguientes se coloquen debajo de los elementos flotantes.
+
+Estos cambios ajustan el ancho, la alineación, el relleno y el estilo del texto, así como la posición de las imágenes y elementos "texto" dentro de los elementos "bloque" que son impares. Además, se ha agregado la propiedad `text-align: justify;` para justificar el texto dentro de los elementos "texto."
