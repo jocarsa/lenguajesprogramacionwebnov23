@@ -1,4 +1,4 @@
-El sistema de color hexadecimal, comúnmente abreviado como "hex color" o "color hex", es un sistema numérico que se utiliza para representar colores en la web y en aplicaciones de diseño. Este sistema se basa en la combinación de valores hexadecimales que representan los componentes de color rojo (R), verde (G) y azul (B) para crear una amplia gama de colores. Cada componente de color tiene un rango de valores que va desde 00 (0 en decimal) hasta FF (255 en decimal), lo que resulta en un total de 256 posibles valores para cada componente.
+﻿El sistema de color hexadecimal, comúnmente abreviado como "hex color" o "color hex", es un sistema numérico que se utiliza para representar colores en la web y en aplicaciones de diseño. Este sistema se basa en la combinación de valores hexadecimales que representan los componentes de color rojo (R), verde (G) y azul (B) para crear una amplia gama de colores. Cada componente de color tiene un rango de valores que va desde 00 (0 en decimal) hasta FF (255 en decimal), lo que resulta en un total de 256 posibles valores para cada componente.
 
 Aquí hay algunos aspectos clave del sistema de color hexadecimal:
 
@@ -10,4 +10,4 @@ Aquí hay algunos aspectos clave del sistema de color hexadecimal:
 
 4. Transparencia: Además de los valores de color tradicionales, el sistema de color hexadecimal también puede incluir un cuarto componente, que representa la transparencia (alfa). Esto se conoce como notación RGBA. Por ejemplo, "#RRGGBBAA" donde AA representa la opacidad del color, con 00 siendo totalmente transparente y FF siendo totalmente opaco.
 
-En resumen, el sistema de color hexadecimal es ampliamente utilizado en diseño web y gráfico para representar colores de manera precisa y eficiente. Te permite definir una gran variedad de colores utilizando combinaciones de valores hexadecimales para los componentes de color rojo, verde y azul, y opcionalmente, la opacidad.
+el sistema de color hexadecimal es ampliamente utilizado en diseño web y gráfico para representar colores de manera precisa y eficiente. Te permite definir una gran variedad de colores utilizando combinaciones de valores hexadecimales para los componentes de color rojo, verde y azul, y opcionalmente, la opacidad.

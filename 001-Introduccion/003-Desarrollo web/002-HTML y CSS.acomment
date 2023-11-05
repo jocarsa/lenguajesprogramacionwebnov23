@@ -1,4 +1,4 @@
-HTML (HyperText Markup Language) y CSS (Cascading Style Sheets) son dos lenguajes fundamentales en el proceso de desarrollo web. Juntos, desempeñan un papel crítico en la creación de sitios web funcionales, atractivos y efectivos. Aquí te explico la importancia de HTML y CSS en el desarrollo web:
+﻿HTML (HyperText Markup Language) y CSS (Cascading Style Sheets) son dos lenguajes fundamentales en el proceso de desarrollo web. Juntos, desempeñan un papel crítico en la creación de sitios web funcionales, atractivos y efectivos. Aquí te explico la importancia de HTML y CSS en el desarrollo web:
 
 1. **Estructura y contenido (HTML)**:
    - HTML se utiliza para definir la estructura y el contenido de una página web. Permite la creación de elementos como encabezados, párrafos, listas, enlaces, imágenes y formularios.
@@ -24,4 +24,4 @@ HTML (HyperText Markup Language) y CSS (Cascading Style Sheets) son dos lenguaje
    - CSS se utiliza para optimizar la presentación de la página y reducir el tiempo de carga al minimizar el tamaño de los archivos CSS y al utilizar técnicas como la compresión y la combinación de archivos.
    - HTML y CSS bien estructurados contribuyen a un código más limpio y ligero, lo que beneficia el rendimiento de la página.
 
-En resumen, HTML y CSS son lenguajes esenciales en el desarrollo web, ya que permiten definir la estructura y el contenido de un sitio web, al mismo tiempo que controlan su presentación y diseño. La combinación de HTML y CSS proporciona las bases para crear sitios web accesibles, atractivos y eficientes que se adaptan a las necesidades de los usuarios y a las diferentes plataformas.
+HTML y CSS son lenguajes esenciales en el desarrollo web, ya que permiten definir la estructura y el contenido de un sitio web, al mismo tiempo que controlan su presentación y diseño. La combinación de HTML y CSS proporciona las bases para crear sitios web accesibles, atractivos y eficientes que se adaptan a las necesidades de los usuarios y a las diferentes plataformas.

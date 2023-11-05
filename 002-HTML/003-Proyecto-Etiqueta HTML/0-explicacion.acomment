@@ -1,4 +1,4 @@
-La etiqueta `<html>` es uno de los elementos fundamentales en HTML (Hypertext Markup Language) y se utiliza para definir el comienzo y el final de un documento HTML. Es la etiqueta raíz que envuelve todo el contenido de una página web y proporciona información esencial sobre la estructura del documento. Aquí hay algunos aspectos clave relacionados con la etiqueta `<html>`:
+﻿La etiqueta `<html>` es uno de los elementos fundamentales en HTML (Hypertext Markup Language) y se utiliza para definir el comienzo y el final de un documento HTML. Es la etiqueta raíz que envuelve todo el contenido de una página web y proporciona información esencial sobre la estructura del documento. Aquí hay algunos aspectos clave relacionados con la etiqueta `<html>`:
 
 1. Elemento raíz: La etiqueta `<html>` es el elemento raíz de un documento HTML. Esto significa que todas las demás etiquetas y contenido HTML deben estar anidadas dentro de esta etiqueta.
 
@@ -28,4 +28,4 @@ Aquí hay un ejemplo básico de una estructura HTML que utiliza la etiqueta `<ht
 </html>
 ```
 
-En resumen, la etiqueta `<html>` es esencial en HTML ya que define el comienzo y el final de un documento HTML. Proporciona la estructura básica en la que se anidan todas las demás etiquetas y elementos HTML. También se utiliza para especificar el idioma principal de la página y para dividir el contenido en las secciones `<head>` y `<body>.
+la etiqueta `<html>` es esencial en HTML ya que define el comienzo y el final de un documento HTML. Proporciona la estructura básica en la que se anidan todas las demás etiquetas y elementos HTML. También se utiliza para especificar el idioma principal de la página y para dividir el contenido en las secciones `<head>` y `<body>.

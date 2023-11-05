@@ -1,7 +1,7 @@
-En el nuevo fragmento de código CSS:
+﻿En el ejercicio del curso: 
 
 1. `nav ul li a`: Se ha agregado una nueva regla de estilo que afecta a los elementos anidados dentro de los elementos `<li>` dentro de una lista desordenada `<ul>` dentro del elemento `<nav>`. Esta regla establece lo siguiente:
    - `text-decoration: none;`: Se elimina la decoración de texto subrayado de los enlaces anidados dentro del menú de navegación. Esto significa que los enlaces en el menú de navegación no estarán subrayados.
    - `color: inherit;`: El color del texto de los enlaces se hereda del color definido en los estilos generales, lo que asegura que los enlaces tengan el mismo color de texto que otros elementos en la página.
 
-En resumen, en comparación con el código CSS anterior, se han agregado reglas de estilo para los enlaces anidados dentro del menú de navegación, eliminando la decoración de texto subrayado y heredando el color del texto definido en los estilos generales. Esto ayuda a estilizar y personalizar los enlaces en el menú de navegación.
+en comparación con el código CSS anterior, se han agregado reglas de estilo para los enlaces anidados dentro del menú de navegación, eliminando la decoración de texto subrayado y heredando el color del texto definido en los estilos generales. Esto ayuda a estilizar y personalizar los enlaces en el menú de navegación.

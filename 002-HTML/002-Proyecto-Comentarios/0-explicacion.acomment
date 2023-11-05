@@ -1,4 +1,4 @@
-Los comentarios en HTML son partes del código que no se muestran en la página web cuando se visualiza en un navegador. Los comentarios se utilizan para incluir notas, explicaciones o anotaciones dentro del código fuente HTML. Son útiles para que los desarrolladores y diseñadores web documenten su código, hagan recordatorios para futuras ediciones o proporcionen información a otros colaboradores que puedan trabajar en el mismo proyecto.
+﻿Los comentarios en HTML son partes del código que no se muestran en la página web cuando se visualiza en un navegador. Los comentarios se utilizan para incluir notas, explicaciones o anotaciones dentro del código fuente HTML. Son útiles para que los desarrolladores y diseñadores web documenten su código, hagan recordatorios para futuras ediciones o proporcionen información a otros colaboradores que puedan trabajar en el mismo proyecto.
 
 Los comentarios en HTML se crean utilizando la siguiente sintaxis:
 
@@ -35,4 +35,4 @@ Ejemplo de desactivación temporal de una sección de código con un comentario:
 
 4. Los comentarios no deben utilizarse para ocultar contenido sensible o importante, ya que el código fuente de una página web es accesible para cualquiera que inspeccione la página.
 
-En resumen, los comentarios en HTML son bloques de texto que se utilizan para documentar el código, proporcionar notas o anotaciones, y desactivar temporalmente partes del código. Ayudan a los desarrolladores a entender y mantener el código y son una práctica común en la programación web.
+los comentarios en HTML son bloques de texto que se utilizan para documentar el código, proporcionar notas o anotaciones, y desactivar temporalmente partes del código. Ayudan a los desarrolladores a entender y mantener el código y son una práctica común en la programación web.

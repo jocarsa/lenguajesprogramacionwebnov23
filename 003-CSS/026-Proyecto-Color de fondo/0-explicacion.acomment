@@ -1,4 +1,4 @@
-El color de fondo en CSS se refiere al color que se aplica a la parte posterior de un elemento HTML, como un div, una sección de texto, una página completa, etc. Es lo que se ve detrás del contenido y puede personalizarse según tus preferencias de diseño. Puedes establecer el color de fondo utilizando la propiedad `background-color` en CSS. Aquí tienes una explicación detallada sobre cómo se usa:
+﻿El color de fondo en CSS se refiere al color que se aplica a la parte posterior de un elemento HTML, como un div, una sección de texto, una página completa, etc. Es lo que se ve detrás del contenido y puede personalizarse según tus preferencias de diseño. Puedes establecer el color de fondo utilizando la propiedad `background-color` en CSS. Aquí tienes una explicación detallada sobre cómo se usa:
 
 1. **Uso básico de `background-color`:** La propiedad `background-color` se utiliza para establecer el color de fondo de un elemento. Puedes asignar un color de fondo utilizando una variedad de métodos, como nombres de colores, valores hexadecimales, valores RGB o RGBA.
 
@@ -53,4 +53,4 @@ El color de fondo en CSS se refiere al color que se aplica a la parte posterior 
    }
    ```
 
-En resumen, la propiedad `background-color` en CSS te permite personalizar el color de fondo de los elementos HTML, ya sea utilizando colores sólidos, imágenes o transparencia, lo que te brinda una gran flexibilidad en el diseño de tu página web.
+la propiedad `background-color` en CSS te permite personalizar el color de fondo de los elementos HTML, ya sea utilizando colores sólidos, imágenes o transparencia, lo que te brinda una gran flexibilidad en el diseño de tu página web.

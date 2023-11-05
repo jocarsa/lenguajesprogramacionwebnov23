@@ -1,5 +1,5 @@
-En el nuevo fragmento de código CSS:
+﻿En el ejercicio del curso: 
 
 1. `h2`: Se ha añadido una regla de estilo para el elemento `<h2>`. Se ha especificado la propiedad `font-weight` con el valor `normal`. Esto cambia el peso de la fuente del `<h2>` a "normal" en lugar de "negrita", que era el valor predeterminado. Esto puede ser útil si se desea restaurar el peso de fuente normal después de aplicar una fuente negrita en reglas anteriores.
 
-En resumen, en comparación con el código CSS anterior, se ha añadido la regla `font-weight: normal;` para el elemento `<h2>`, lo que cambia el peso de la fuente de negrita a normal. Los otros estilos permanecen sin cambios.
+en comparación con el código CSS anterior, se ha añadido la regla `font-weight: normal;` para el elemento `<h2>`, lo que cambia el peso de la fuente de negrita a normal. Los otros estilos permanecen sin cambios.

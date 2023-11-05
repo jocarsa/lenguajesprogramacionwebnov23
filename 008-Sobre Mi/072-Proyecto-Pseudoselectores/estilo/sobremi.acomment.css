@@ -1,4 +1,4 @@
-En el código CSS que has proporcionado, se han realizado algunas modificaciones en comparación con el código CSS anterior. Aquí están las novedades específicas:
+﻿En el código CSS que has proporcionado, se han realizado algunas modificaciones en comparación con el código CSS anterior. Aquí están las novedades específicas:
 
 1. `#sobremi img`:
    - `width: 40%;`: En este caso, se ha reducido el ancho de las imágenes al 40% en lugar del 50% anterior. Las imágenes ahora ocuparán un ancho más estrecho en relación con el contenedor "sobremi."
@@ -15,4 +15,4 @@ En el código CSS que has proporcionado, se han realizado algunas modificaciones
 5. `.clearfix`:
    - `.clearfix` es una clase adicional que se ha definido en este código. Esta clase se utiliza comúnmente para limpiar los flotadores utilizados en las reglas anteriores. Al agregar esta clase a un elemento HTML, se forzará a que dicho elemento se sitúe debajo de los elementos flotantes anteriores, evitando que afecten a su disposición. Esto es útil cuando se trabaja con elementos flotantes en diseños.
 
-En resumen, las novedades en este código incluyen ajustes en el ancho de las imágenes y elementos "texto," así como reglas CSS para flotar imágenes y elementos "texto" a la izquierda y derecha en función de su posición en la jerarquía. También se ha definido la clase `.clearfix` para manejar la limpieza de elementos flotantes en el diseño.
+las novedades en este código incluyen ajustes en el ancho de las imágenes y elementos "texto," así como reglas CSS para flotar imágenes y elementos "texto" a la izquierda y derecha en función de su posición en la jerarquía. También se ha definido la clase `.clearfix` para manejar la limpieza de elementos flotantes en el diseño.

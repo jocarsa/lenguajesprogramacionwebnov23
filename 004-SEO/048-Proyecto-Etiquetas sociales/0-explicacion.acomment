@@ -1,4 +1,4 @@
-Las etiquetas sociales, también conocidas como etiquetas de metadatos sociales, son fragmentos de código HTML que proporcionan información específica para que las redes sociales y los motores de búsqueda comprendan mejor y representen el contenido de una página web cuando se comparte en plataformas sociales como Facebook, Twitter y otras. Estas etiquetas son importantes para el SEO y para mejorar la apariencia y la experiencia de compartir en redes sociales. En tu ejemplo, estás utilizando etiquetas sociales tanto para Facebook como para Twitter. Aquí se explica su importancia:
+﻿Las etiquetas sociales, también conocidas como etiquetas de metadatos sociales, son fragmentos de código HTML que proporcionan información específica para que las redes sociales y los motores de búsqueda comprendan mejor y representen el contenido de una página web cuando se comparte en plataformas sociales como Facebook, Twitter y otras. Estas etiquetas son importantes para el SEO y para mejorar la apariencia y la experiencia de compartir en redes sociales. En tu ejemplo, estás utilizando etiquetas sociales tanto para Facebook como para Twitter. Aquí se explica su importancia:
 
 **Etiquetas sociales para Facebook (`og:`):**
 - **`og:title`:** Esta etiqueta define el título que se mostrará cuando alguien comparta el enlace en Facebook. El título debe ser informativo y atractivo para los usuarios.
@@ -21,4 +21,4 @@ La importancia de estas etiquetas sociales para el SEO y la visibilidad de tu si
 
 4. **Mejora el SEO social:** Los motores de búsqueda también pueden utilizar esta información para comprender y clasificar el contenido compartido en redes sociales, lo que puede afectar positivamente el SEO de tu sitio web.
 
-En resumen, el uso de etiquetas sociales es fundamental para mejorar la visibilidad y la apariencia de tus enlaces compartidos en redes sociales y puede tener un impacto positivo en el SEO social y el tráfico de tu sitio web. Es una práctica recomendada para optimizar tu presencia en línea.
+el uso de etiquetas sociales es fundamental para mejorar la visibilidad y la apariencia de tus enlaces compartidos en redes sociales y puede tener un impacto positivo en el SEO social y el tráfico de tu sitio web. Es una práctica recomendada para optimizar tu presencia en línea.

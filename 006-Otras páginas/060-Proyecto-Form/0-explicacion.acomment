@@ -1,4 +1,4 @@
-La etiqueta `<form>` en HTML se utiliza para crear un formulario interactivo en una página web. Los formularios son una parte fundamental de la interacción con los usuarios en línea y se utilizan para recopilar datos, como información de contacto, respuestas a encuestas, detalles de inicio de sesión, comentarios y más. Aquí hay una explicación detallada sobre cómo funciona la etiqueta `<form>` en HTML:
+﻿La etiqueta `<form>` en HTML se utiliza para crear un formulario interactivo en una página web. Los formularios son una parte fundamental de la interacción con los usuarios en línea y se utilizan para recopilar datos, como información de contacto, respuestas a encuestas, detalles de inicio de sesión, comentarios y más. Aquí hay una explicación detallada sobre cómo funciona la etiqueta `<form>` en HTML:
 
 Sintaxis básica de la etiqueta `<form>`:
 
@@ -34,4 +34,4 @@ En este ejemplo, el formulario incluye campos de entrada de texto para el nombre
 
 Cuando el usuario completa el formulario y hace clic en el botón de envío, los datos ingresados se envían al servidor especificado en el atributo `action` utilizando el método especificado en el atributo `method`. El servidor procesará los datos y puede responder con una página de confirmación o realizar otras acciones, como almacenar la información en una base de datos.
 
-En resumen, la etiqueta `<form>` en HTML es esencial para crear formularios interactivos en una página web y recopilar información del usuario. Es una parte fundamental de la interacción en línea y se utiliza para una variedad de propósitos, desde registros de usuario hasta comentarios y compras en línea.
+la etiqueta `<form>` en HTML es esencial para crear formularios interactivos en una página web y recopilar información del usuario. Es una parte fundamental de la interacción en línea y se utiliza para una variedad de propósitos, desde registros de usuario hasta comentarios y compras en línea.

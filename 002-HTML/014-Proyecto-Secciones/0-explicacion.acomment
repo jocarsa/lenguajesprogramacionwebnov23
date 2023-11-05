@@ -1,4 +1,4 @@
-La etiqueta `<section>` en HTML se utiliza para definir secciones temáticas o agrupaciones de contenido relacionado en una página web. Su propósito principal es estructurar y organizar el contenido, lo que mejora la semántica del documento y facilita la comprensión tanto para los desarrolladores como para las tecnologías de asistencia. A continuación, se explica con más detalle la etiqueta `<section>`:
+﻿La etiqueta `<section>` en HTML se utiliza para definir secciones temáticas o agrupaciones de contenido relacionado en una página web. Su propósito principal es estructurar y organizar el contenido, lo que mejora la semántica del documento y facilita la comprensión tanto para los desarrolladores como para las tecnologías de asistencia. A continuación, se explica con más detalle la etiqueta `<section>`:
 
 1. Propósito: La etiqueta `<section>` se utiliza para delimitar secciones de contenido que tienen una relación temática o lógica en común. Puede contener varios elementos, como encabezados, párrafos, imágenes, listas y otros elementos HTML.
 
@@ -25,4 +25,4 @@ La etiqueta `<section>` en HTML se utiliza para definir secciones temáticas o a
 
 5. Diferencia con otras etiquetas: Es importante distinguir entre la etiqueta `<section>` y otras etiquetas relacionadas, como `<article>`, `<header>`, `<footer>`, y `<aside>`. Mientras que `<section>` se utiliza para agrupar contenido relacionado dentro de una página, `<article>` se utiliza para contenido independiente y autocontenido. Por otro lado, `<header>`, `<footer>`, y `<aside>` se utilizan para definir encabezados, pies de página y contenido secundario, respectivamente.
 
-En resumen, la etiqueta `<section>` es una herramienta útil para organizar y estructurar el contenido de una página web en secciones temáticas relacionadas. Su uso mejora la semántica y la claridad del código HTML, lo que facilita la comprensión del contenido y la navegación en el sitio web.
+la etiqueta `<section>` es una herramienta útil para organizar y estructurar el contenido de una página web en secciones temáticas relacionadas. Su uso mejora la semántica y la claridad del código HTML, lo que facilita la comprensión del contenido y la navegación en el sitio web.

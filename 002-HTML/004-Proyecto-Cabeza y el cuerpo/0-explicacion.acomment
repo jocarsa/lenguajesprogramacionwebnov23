@@ -1,4 +1,4 @@
-Las etiquetas `<head>` y `<body>` son dos de las secciones fundamentales de un documento HTML, y cada una tiene un propósito específico en la estructura de una página web:
+﻿Las etiquetas `<head>` y `<body>` son dos de las secciones fundamentales de un documento HTML, y cada una tiene un propósito específico en la estructura de una página web:
 
 1. Etiqueta `<head>`:
 La etiqueta `<head>` se utiliza para incluir metadatos y otros elementos que no se muestran directamente en la página web, pero que son importantes para su funcionamiento y optimización. Algunos de los elementos comunes que se encuentran dentro de la etiqueta `<head>` son:
@@ -42,4 +42,4 @@ Ejemplo de una sección `<body>`:
 </body>
 ```
 
-En resumen, la etiqueta `<head>` se utiliza para incluir metadatos y recursos que no son visibles en la página web, mientras que la etiqueta `<body>` contiene todo el contenido visible y interactivo que los usuarios verán en el navegador. Ambas secciones son esenciales para la estructura y el funcionamiento de una página web.
+la etiqueta `<head>` se utiliza para incluir metadatos y recursos que no son visibles en la página web, mientras que la etiqueta `<body>` contiene todo el contenido visible y interactivo que los usuarios verán en el navegador. Ambas secciones son esenciales para la estructura y el funcionamiento de una página web.

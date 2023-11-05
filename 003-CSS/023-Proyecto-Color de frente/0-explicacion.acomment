@@ -1,4 +1,4 @@
-Para establecer el color de texto o "color de frente" en CSS, puedes utilizar la propiedad `color`. Esta propiedad te permite definir el color del texto en elementos HTML. Puedes especificar el color de diversas formas, como utilizando nombres de colores, valores hexadecimales, valores RGB o RGBA. Aquí tienes ejemplos de cómo usar la propiedad `color` en CSS:
+﻿Para establecer el color de texto o "color de frente" en CSS, puedes utilizar la propiedad `color`. Esta propiedad te permite definir el color del texto en elementos HTML. Puedes especificar el color de diversas formas, como utilizando nombres de colores, valores hexadecimales, valores RGB o RGBA. Aquí tienes ejemplos de cómo usar la propiedad `color` en CSS:
 
 1. Utilizando nombres de colores:
 Puedes utilizar nombres de colores predefinidos en CSS. Algunos ejemplos de nombres de colores comunes son "red" (rojo), "blue" (azul), "green" (verde), "black" (negro), entre otros. Por ejemplo:
@@ -36,4 +36,4 @@ span {
 }
 ```
 
-En resumen, la propiedad `color` en CSS te permite definir el color de frente del texto en tus elementos HTML, ya sea utilizando nombres de colores, valores hexadecimales, valores RGB o RGBA, según tus necesidades de diseño.
+la propiedad `color` en CSS te permite definir el color de frente del texto en tus elementos HTML, ya sea utilizando nombres de colores, valores hexadecimales, valores RGB o RGBA, según tus necesidades de diseño.

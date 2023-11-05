@@ -1,4 +1,4 @@
-El atributo "alt" en la etiqueta `<img>` de HTML (por sus siglas en inglés, "alternative text" o texto alternativo) se utiliza para proporcionar una descripción de la imagen. Esta descripción se muestra en lugar de la imagen en situaciones en las que la imagen no se carga correctamente o cuando los usuarios tienen desactivada la visualización de imágenes en su navegador. Además, el atributo "alt" es esencial para la accesibilidad web, ya que las tecnologías de asistencia, como los lectores de pantalla, utilizan este texto alternativo para describir las imágenes a las personas con discapacidad visual.
+﻿El atributo "alt" en la etiqueta `<img>` de HTML (por sus siglas en inglés, "alternative text" o texto alternativo) se utiliza para proporcionar una descripción de la imagen. Esta descripción se muestra en lugar de la imagen en situaciones en las que la imagen no se carga correctamente o cuando los usuarios tienen desactivada la visualización de imágenes en su navegador. Además, el atributo "alt" es esencial para la accesibilidad web, ya que las tecnologías de asistencia, como los lectores de pantalla, utilizan este texto alternativo para describir las imágenes a las personas con discapacidad visual.
 
 A continuación, te explico en detalle cómo se utiliza el atributo "alt" en la etiqueta `<img>`:
 
@@ -27,4 +27,4 @@ A continuación, te explico en detalle cómo se utiliza el atributo "alt" en la 
    - Describe el contenido de la imagen de manera clara y coherente con el contexto de la página.
    - Si la imagen contiene texto legible, asegúrate de incluir ese texto en el atributo "alt" para que los lectores de pantalla puedan leerlo.
 
-En resumen, el atributo "alt" en la etiqueta `<img>` es esencial para la accesibilidad web y para proporcionar una experiencia inclusiva a todos los usuarios. Proporcionar descripciones significativas en el atributo "alt" asegura que las personas con discapacidad visual puedan acceder al contenido de las imágenes en tu sitio web y comprendan su propósito.
+el atributo "alt" en la etiqueta `<img>` es esencial para la accesibilidad web y para proporcionar una experiencia inclusiva a todos los usuarios. Proporcionar descripciones significativas en el atributo "alt" asegura que las personas con discapacidad visual puedan acceder al contenido de las imágenes en tu sitio web y comprendan su propósito.

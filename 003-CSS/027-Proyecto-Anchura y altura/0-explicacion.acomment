@@ -1,4 +1,4 @@
-En CSS, la anchura (ancho) y la altura se utilizan para definir las dimensiones de los elementos HTML, como divs, imágenes, texto y otros elementos. Estas propiedades son fundamentales para controlar el diseño y la presentación de tu página web. Aquí te explico en detalle cómo funcionan:
+﻿En CSS, la anchura (ancho) y la altura se utilizan para definir las dimensiones de los elementos HTML, como divs, imágenes, texto y otros elementos. Estas propiedades son fundamentales para controlar el diseño y la presentación de tu página web. Aquí te explico en detalle cómo funcionan:
 
 1. **Anchura (width):** La propiedad `width` en CSS se utiliza para establecer el ancho de un elemento. Puedes especificar el valor en píxeles (px), porcentaje (%), unidades relativas (como "em" o "rem"), o valores específicos como "auto". A continuación, algunos ejemplos:
 
@@ -50,4 +50,4 @@ En CSS, la anchura (ancho) y la altura se utilizan para definir las dimensiones 
 
 4. **Importancia de la propiedad "box-sizing":** La propiedad `box-sizing` también es relevante al trabajar con anchura y altura. Puedes usarla para controlar si los valores de `width` y `height` incluyen o no el relleno (padding) y el borde (border) del elemento. Los valores posibles son "content-box" (valor por defecto) y "border-box". Cambiar esta propiedad puede afectar cómo se calculan las dimensiones reales del elemento.
 
-En resumen, las propiedades `width` y `height` en CSS te permiten controlar las dimensiones de los elementos HTML en tu página web, lo que es esencial para el diseño y la disposición de contenido en tu sitio. Puedes especificar estas dimensiones en diferentes unidades y, en algunos casos, permitir que se ajusten automáticamente al contenido.
+las propiedades `width` y `height` en CSS te permiten controlar las dimensiones de los elementos HTML en tu página web, lo que es esencial para el diseño y la disposición de contenido en tu sitio. Puedes especificar estas dimensiones en diferentes unidades y, en algunos casos, permitir que se ajusten automáticamente al contenido.

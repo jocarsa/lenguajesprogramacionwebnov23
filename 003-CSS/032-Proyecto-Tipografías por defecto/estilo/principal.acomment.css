@@ -1,5 +1,5 @@
-En el nuevo fragmento de código CSS:
+﻿En el ejercicio del curso: 
 
 1. `*`: Se ha añadido una regla de estilo que afecta a todos los elementos en la página utilizando el selector universal `*`. La propiedad `font-family` se establece en "sans-serif". Esta regla significa que se aplica un tipo de fuente sans-serif a todos los elementos en la página, a menos que se especifique un tipo de fuente diferente en una regla de estilo específica para un elemento en particular.
 
-En resumen, en comparación con el código CSS anterior, se ha agregado una regla de estilo global que establece un tipo de fuente sans-serif para todos los elementos en la página. Esto garantiza la consistencia en la fuente utilizada en toda la página.
+en comparación con el código CSS anterior, se ha agregado una regla de estilo global que establece un tipo de fuente sans-serif para todos los elementos en la página. Esto garantiza la consistencia en la fuente utilizada en toda la página.

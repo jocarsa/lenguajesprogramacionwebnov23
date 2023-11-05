@@ -1,4 +1,4 @@
-Para insertar imágenes en HTML, se utiliza la etiqueta `<img>`, que representa una imagen en una página web. La etiqueta `<img>` se utiliza junto con el atributo "src" (source) para especificar la URL de la imagen que se va a mostrar. Aquí tienes una explicación detallada de cómo insertar imágenes en HTML:
+﻿Para insertar imágenes en HTML, se utiliza la etiqueta `<img>`, que representa una imagen en una página web. La etiqueta `<img>` se utiliza junto con el atributo "src" (source) para especificar la URL de la imagen que se va a mostrar. Aquí tienes una explicación detallada de cómo insertar imágenes en HTML:
 
 1. Etiqueta `<img>`: La etiqueta `<img>` se utiliza para insertar imágenes en una página web. No tiene una etiqueta de cierre, ya que es una etiqueta de autocompletado. Debes usar el atributo "src" para especificar la URL de la imagen.
 
@@ -50,4 +50,4 @@ Para insertar imágenes en HTML, se utiliza la etiqueta `<img>`, que representa 
    <img src="https://www.ejemplo.com/imagen.jpg" alt="Descripción de la imagen">
    ```
 
-En resumen, la inserción de imágenes en HTML se realiza mediante la etiqueta `<img>`, utilizando el atributo "src" para especificar la ubicación de la imagen y el atributo "alt" para proporcionar una descripción de la imagen. Las imágenes son elementos visuales importantes en una página web y deben utilizarse con consideración para mejorar la experiencia del usuario y la accesibilidad.
+la inserción de imágenes en HTML se realiza mediante la etiqueta `<img>`, utilizando el atributo "src" para especificar la ubicación de la imagen y el atributo "alt" para proporcionar una descripción de la imagen. Las imágenes son elementos visuales importantes en una página web y deben utilizarse con consideración para mejorar la experiencia del usuario y la accesibilidad.

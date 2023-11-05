@@ -1,4 +1,4 @@
-El sistema de color mediante componentes RGB (Red, Green, Blue) en CSS se basa en la combinación de estos tres colores primarios para crear una amplia gama de colores. En este sistema, se utilizan valores numéricos para representar la cantidad de cada uno de los componentes en una escala que va desde 0 a 255. Cada componente de color (rojo, verde y azul) se especifica utilizando la función `rgb()` en CSS.
+﻿El sistema de color mediante componentes RGB (Red, Green, Blue) en CSS se basa en la combinación de estos tres colores primarios para crear una amplia gama de colores. En este sistema, se utilizan valores numéricos para representar la cantidad de cada uno de los componentes en una escala que va desde 0 a 255. Cada componente de color (rojo, verde y azul) se especifica utilizando la función `rgb()` en CSS.
 
 Aquí tienes una descripción más detallada del sistema de color mediante componentes RGB en CSS:
 
@@ -26,4 +26,4 @@ span {
 }
 ```
 
-En resumen, el sistema de color mediante componentes RGB en CSS te permite definir colores precisos especificando la intensidad de los componentes de rojo, verde y azul. Puedes crear una amplia gama de colores personalizados utilizando esta notación.
+el sistema de color mediante componentes RGB en CSS te permite definir colores precisos especificando la intensidad de los componentes de rojo, verde y azul. Puedes crear una amplia gama de colores personalizados utilizando esta notación.

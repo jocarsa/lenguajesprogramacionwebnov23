@@ -1,4 +1,4 @@
-El elemento `<input>` con el atributo `type="submit"` se utiliza en formularios HTML para crear botones de envío. Estos botones permiten a los usuarios enviar los datos ingresados en un formulario al servidor para su procesamiento. Aquí tienes una explicación detallada sobre cómo funciona el campo de entrada de envío (`<input type="submit>`) en HTML:
+﻿El elemento `<input>` con el atributo `type="submit"` se utiliza en formularios HTML para crear botones de envío. Estos botones permiten a los usuarios enviar los datos ingresados en un formulario al servidor para su procesamiento. Aquí tienes una explicación detallada sobre cómo funciona el campo de entrada de envío (`<input type="submit>`) en HTML:
 
 **Sintaxis básica de `<input>` tipo "submit":**
 
@@ -25,4 +25,4 @@ En este ejemplo, se ha creado un botón de envío etiquetado como "Enviar" dentr
 
 Es importante destacar que un formulario puede tener un solo campo de entrada de envío. Si tienes varios botones en un formulario, cada uno debe tener su propio campo de entrada de tipo "submit" con un atributo `value` diferente, lo que permite realizar acciones específicas al hacer clic en cada botón. Por ejemplo, puedes tener un botón "Enviar" y un botón "Cancelar" en el mismo formulario.
 
-En resumen, el campo de entrada de envío (`<input type="submit>`) es esencial en los formularios HTML y se utiliza para permitir a los usuarios enviar los datos ingresados en el formulario al servidor. Puedes personalizar el texto del botón de envío utilizando el atributo `value`, lo que ayuda a los usuarios a comprender la acción que se realizará al hacer clic en el botón.
+el campo de entrada de envío (`<input type="submit>`) es esencial en los formularios HTML y se utiliza para permitir a los usuarios enviar los datos ingresados en el formulario al servidor. Puedes personalizar el texto del botón de envío utilizando el atributo `value`, lo que ayuda a los usuarios a comprender la acción que se realizará al hacer clic en el botón.

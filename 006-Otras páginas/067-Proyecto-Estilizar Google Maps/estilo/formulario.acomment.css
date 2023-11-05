@@ -1,4 +1,4 @@
-El código que has proporcionado se refiere a la estilización de elementos HTML utilizando hojas de estilo CSS. En particular, la parte del código que mencionaste se centra en el elemento `<iframe>`. Aquí tienes una explicación de esa parte específica:
+﻿El código que has proporcionado se refiere a la estilización de elementos HTML utilizando hojas de estilo CSS. En particular, la parte del código que mencionaste se centra en el elemento `<iframe>`. Aquí tienes una explicación de esa parte específica:
 
 ```css
 iframe {
@@ -19,4 +19,4 @@ iframe {
 
 - `margin-top: 40px;`: Agrega un margen superior de 40 píxeles al elemento `<iframe>`. Esto crea un espacio entre el formulario y el mapa de Google para un mejor diseño visual.
 
-En resumen, esta parte del código CSS se encarga de dar estilo al elemento `<iframe> para controlar su ancho, altura y posición en la página web. El elemento `<iframe>` se muestra como un elemento en línea que ocupa el 49% del ancho del contenedor padre, tiene una altura de 300 píxeles y se separa del contenido anterior con un margen superior de 40 píxeles.
+esta parte del código CSS se encarga de dar estilo al elemento `<iframe> para controlar su ancho, altura y posición en la página web. El elemento `<iframe>` se muestra como un elemento en línea que ocupa el 49% del ancho del contenedor padre, tiene una altura de 300 píxeles y se separa del contenido anterior con un margen superior de 40 píxeles.
